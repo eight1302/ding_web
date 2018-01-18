@@ -2,7 +2,7 @@
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
-    <title>创元智造</title>
+    <title>云智造</title>
     <link rel="stylesheet" type="text/css" href="../../css/home.css">
     <link rel="stylesheet" type="text/css" href="../../css/nav.css">
     <link rel="stylesheet" type="text/css" href="../../css/footer.css">
@@ -14,12 +14,134 @@
     <link rel="shortcut icon" href="../cy.ico"/>
   </head>
   <body ng-app="" style="margin: 0; padding: 0;">
-    <header class="header"  ng-include="'../include/top.html'"></header>
+    <header></header>
     <div class="dashboard-top-main">
-         <nav ng-include="'../include/nav.html'"></nav>
-         <footer ng-include="'sale.html'"></footer>
+         <nav></nav>
+         <footer>
+           <section class="select_product">
+            <div class="col-md-12 selcet_des">
+              <div class="col-md-2 col-xs-2 col-sm-2 repair_info">
+                <span>选择返修产品</span>
+              </div>
+              <!--<div class="col-md-8" style="position: relative;">
+                <div class="repair_process">
+                  <span class="col-md-2" style="line-height: 60px;color: #2196f3;padding-left: 9%;">返修操作流程</span>
+                  <div class="col-md-10 repair_des">
+                    <div class="col-md-12 timeline_red"></div>
+                    <div class="col-md-12 red_detail">
+                      <div class="tow">
+                        <div class="round_red">
+                          <span>1</span>
+                        </div>
+                        <span class="one">查看详情</span>
+                      </div>
+                      <div class="tow">
+                        <div class="round_red">
+                          <span>2</span>
+                        </div>
+                        <span class="one">选择返修产品</span>
+                      </div>
+                      <div class="tow">
+                        <div class="round_red">
+                          <span>3</span>
+                        </div>
+                        <span class="one">填写质量问题</span>
+                      </div>
+                      <div class="tow">
+                        <div class="round_red">
+                          <span>4</span>
+                        </div>
+                        <span class="one">填写返修数量</span>
+                      </div>
+                      <div class="tow">
+                        <div class="round_red">
+                          <span>5</span>
+                        </div>
+                        <span class="one">提交到返修列表</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>-->
+              <div style="float: right;">
+                <div class="repair_find">
+                  <select id="type" style="margin-right: 10px;">
+                    <option disabled="disabled">选择合同类型</option>
+                    <option value="OEM">OEM</option>
+                    <option value="焊接">焊接</option>
+                  </select>
+                  <input type="text" name="" class="con_on" id="contract_no" value="" placeholder="输入合同号!" style="width: 100px;">
+                  <div class="con_btn" style="width: 60px;height: 26px;text-align: center;line-height: 26px;background: #2c78b4; color: #fff;float: right;margin-left: 10px;border-radius: 14px;">搜索</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-xs-12 col-sm-12 repair_product_des">
+              <div class="des_product">
+                <div class="col-md-2 col-xs-2 col-sm-2 contract_no">合同编号</div>
+                <div class="col-md-2 col-xs-2 col-sm-2 product_data">下单日期</div>
+                <div class="col-md-2 col-xs-2 col-sm-2 contract_type">订单类型</div>
+                <div class="col-md-2 col-xs-2 col-sm-2 contract_state">订单状态</div>
+                <div class="col-md-2 col-xs-2 col-sm-2 product_quantity">产品数量</div>
+                <div class="col-md-2 col-xs-2 col-sm-2 selcet_pro">选择产品</div>
+              </div>
+              <div class="page-data">
+                <div class="contracts"></div>
+                    <div class="page-left"></div> 
+                  </div> 
+            </div>
+          </section>
+
+          <div class="overlay_repair"></div>
+          <!--返修产品的列表-->
+          <section class="overlay_product">
+            <div class="col-md-12 repair_title">
+              <span style="font-size: 18px;color: #fff;margin-left: 20px;">选择返修产品</span>
+              <div class="cental_pro">
+                <img src="../../img/canel.png" style="width: 100%;height: 100%;margin-top: 1px;">
+              </div>
+            </div>
+            <div class="col-md-12 product_title">
+              <div class="no">序</div>
+              <div class="number">产品编号</div>
+              <div class="name1">产品名称</div>
+              <div class="type">产品型号</div>
+              <div class="quantity">产品数量</div>
+              <div class="re_question">返修数量</div>
+              <div class="up">质量问题</div>
+            </div>
+            <div class="col-md-12 products_info"><!--返修产品列表--></div>
+            <div class="add_repair">
+              <img src="../../img/add.png">
+              <span>提交</span>
+            </div>
+          </section>
+
+          <div class="product_repair"></div>
+          <section class="product_question">
+            <div class="col-md-12 repair_title">
+              <span style="font-size: 18px;color: #fff;margin-left: 20px;">填写质量问题</span>
+              <div class="cental_pro_one">
+                <img src="../../img/canel.png" style="width: 100%;height: 100%;margin-top: 1px;">
+              </div>
+            </div>
+            <div class="col-md-12 question">
+              <div class="col-md-6 col-xs-12 col-sm-12 question_des">
+                <div class="des_ques">问题描述</div>
+                <textarea class="textare" id="textare" value="" placeholder="请输入质量问题,问题**，用分号分开,字数小于1500!"></textarea>
+              </div>
+              <div class="col-md-6 col-xs-12 col-sm-12 question_img">
+                <label style="margin-top: 20px;margin-left: 15px;">上传图片：<input type="file" class="file" id="file" value="" style="float: right;"></label>
+                <div class="imgs"><!--预览图片--><img src="" class="img" style="width: 100%;height: 100%;"></div>
+              </div>
+            </div>
+            <div class="product_repair_btn">
+              <img src="../../img/add.png">
+              <span>提交</span>
+            </div>
+          </section>
+
+         </footer>
     </div>
-     <script type="text/javascript" src="../../js/angular.min.js"></script>
     <script type="text/javascript" src="../../js/sweetalert.min.js"></script>
     <script type="text/javascript" src="../../js/jquery.min.js"></script>
     <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
@@ -28,5 +150,10 @@
     <script type="text/javascript" src="../../js/haeder.js"></script>
     <script type="text/javascript" src="../../js/route.js"></script>
     <script type="text/javascript" src="../../js/select_menu.js"></script>
+    <script type="text/javascript" src="../../js/selltools.js"></script>
+     <script>
+      $("header").load("../include/top.html");
+      $("nav").load("../include/nav.html");
+    </script>
   </body>
 </html>

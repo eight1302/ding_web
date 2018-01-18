@@ -2,7 +2,7 @@
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
-    <title>创元智造</title>
+    <title>云智造</title>
     <link rel="stylesheet" type="text/css" href="../../css/home.css">
     <link rel="stylesheet" type="text/css" href="../../css/nav.css">
     <link rel="stylesheet" type="text/css" href="../../css/order.css">
@@ -10,149 +10,141 @@
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/sweetalert.css">
+    <link rel="stylesheet" type="text/css" href="../../css/page.css">
     <link rel="shortcut icon" href="../cy.ico"/>
   </head>
-  <body ng-app="" style="margin: 0; padding: 0;" id="fullscreen">
-    <header class="header"></header>
+  <body ng-app="" style="margin: 0; padding: 0;">
+    <header style="min-width: 590px;"></header>
     <div class="dashboard-top-main">
-         <nav></nav>
-         <footer style="opacity: 1;">
-           <!--系统首页开始-->
-          <div class="main col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <section class="notice" >
-              <div id="myCarousel" class="carousel slide" style="height: 30%;">
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <img src="../../img/bg_member.jpg" alt="第一张" class="item active">
-                    <img src="../../img/bg_shoulei.jpg" alt="第二张" class="item">
-                    <img src="../../img/bg_xkn.jpg" alt="第三张" class="item">
-                </div>
-                <a href="#myCarousel" data-slide="prev" class="carousel-control left">
-                  <span class=" icon-angle-left icon-2x"></span>
-                </a>
-                <a href="#myCarousel" data-slide="next" class="carousel-control right">
-                  <span class=" icon-angle-right icon-2x"></span>
-                </a>
-              </div>
-              <div class="new">
-                <div class="bulletin">
-                  <h4 class="bulletin_firm">企业公告</h4>
-                  <div class="bulletin_img">
-                    <img src="../../img/bulletin.png">
-                  </div>
-                </div>
-                <div class="bulletin_new">
-                  <ul class="bull_news" id="bull_news">
-                  <!--li数据加载-->
-                  </ul>
-                </div>
-              </div>
-            </section> 
-            <section class="order">
-              <div class="order_echart">
-                <div class="order_data">
-                  <span class="col-md-9 order_analysis">
-                    订单数据分析
-                  </span>
-                  <span class="col-md-1 order_year">
-                    本年
-                  </span>
-                  <span class="col-md-1 order_mouth">
-                    本月
-                  </span>
-                  <span class="col-md-1 order_week">
-                    本周
-                  </span>
-                </div>
-                <div class="order_echart1">
-                  <div class="col-md-4 mychart1" id="mychart1"></div>
-                  <div class="col-md-4 mychart2" id="mychart2"></div>
-                  <div class="col-md-4 mychart3" id="mychart3"></div>
-                </div>
-              </div>
-              <div class="order_st">
-                <div class="order_st1">
-                  <span class="col-md-8 order_statu">
-                    订单数据分析
-                  </span>
-                  <span class="col-md-2 order_statu">
-                    <select id="pay_order">
-                      <option value="0">付款全部</option>
-                      <option value="1">已付款</option>
-                      <option value="2">未付款</option>
-                      <option value="3">部分付款</option>
-                    </select>
-                    
-                  </span>
-                  <span class="col-md-1 order_statu">
-                    <select id="order_all">
-                      <option value="0">订单全部</option>
-                      <option value="1">销售审核中</option>
-                      <option value="2">等待客户确认</option>
-                      <option value="3">上传支付凭证</option>
-                      <option value="4">生产中</option>
-                      <option value="5">已送达</option>
-                      <option value="6">已送达,上传支付凭证</option>
-                      <option value="7">返修中</option>
-                      <option value="8">部分签收</option>          
-                    </select>
-                  </span>
-                </div>
-                <div class="table" style="height: 90%;">
-                    <div class="pact1 col-md-12">
-                        <span class="col-md-2 order_statu">
-                      合同编号
-                    </span>
-                         <span class="col-md-2 order_statu">
-                      下单日期
-                    </span>
-                        <span class="col-md-2 order_statu">
-                      订单类型
-                    </span>
-                        <span class="col-md-2 order_statu">
-                      付款状态
-                    </span>
-                        <span class="col-md-2 order_statu">
-                      订单状态
-                        </span>
-                        <span class="col-md-2 order_statu">
-                      订单金额
-                        </span>
-                   </div>
-                   <div class="order_tatal">
-                      <ul class="order_ul"></ul>
-                   </div>
-                </div>
-              </div>
-            </section>
-          </div>
-          <!--企业公告信息弹出效果展示开始-->
-          <div class="overlay_home">
-          </div>
-          <section class="corporate_actions">
-              <div  class="corporate_h4">
-                <span class="tall col-md-12">企业公告</span>
-              </div>
-              <div class="corporate_news">
-              </div>
-            </section>
-   </footer>
+        <nav></nav>
+         <footer>
+            <!--系统首页开始-->
+            <div class="main col-md-12 col-xs-12 col-sm-12" style="min-height: 499px;padding: 0;padding: 0 10px;margin-top: 10px;">
+                <section class="col-md-3 col-xs-12 col-sm-12 notice" style="padding: 5px;">
+                    <div id="myCarousel" class="carousel slide" style="height: 30%;">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                                <img src="../../img/bg_member.jpg" alt="第一张" class="item active">
+                                <img src="../../img/bg_shoulei.jpg" alt="第二张" class="item">
+                                <img src="../../img/bg_xkn.jpg" alt="第三张" class="item">
+                        </div>
+                    </div>
+                    <div class="new">
+                        <div class="bulletin">
+                            <h4 class="bulletin_firm">企业公告</h4>
+                            <div class="bulletin_img">
+                                <img src="../../img/bulletin.png">
+                            </div>
+                        </div>
+                        <div class="bulletin_new">
+                            <ul class="bull_news" id="bull_news">
+                            <!--li数据加载-->
+                            </ul>
+                        </div>
+                    </div>
+                </section> 
+                <section class="col-md-9 col-xs-12 col-sm-12 order" style="padding: 5px;">
+                    <div class="order_echart">
+                        <div class="order_data">
+                            <span class="col-md-9 order_analysis">
+                                订单数据分析
+                            </span>
+                        </div>
+                        <div class="order_echart1">
+                            <div class="mychart1" id="mychart1"></div>
+                            <div class="mychart1" id="mychart2"></div>
+                            <div class=" mychart1" id="mychart3"></div>
+                        </div>
+                    </div>
+                    <div class="order_st">
+                        <div class="order_st1">
+                            <span class="col-md-8 order_statu">
+                                订单数据分析
+                            </span>
+                            <span class="col-md-2 order_statu">
+                                <select id="pay_order">
+                                    <option value="0">付款全部</option>
+                                    <option value="1">已付款</option>
+                                    <option value="2">未付款</option>
+                                    <option value="3">部分付款</option>
+                                </select>
+                                
+                            </span>
+                            <span class="col-md-1 order_statu">
+                                <select id="order_all">
+                                    <option value="0">订单全部</option>
+                                    <option value="1">销售审核中</option>
+                                    <option value="2">等待客户确认</option>
+                                    <option value="3">上传支付凭证</option>
+                                    <option value="4">生产中</option>
+                                    <option value="5">已送达</option>
+                                    <option value="6">已送达,上传支付凭证</option>
+                                    <option value="7">返修中</option>
+                                    <option value="8">部分签收</option>          
+                                </select>
+                            </span>
+                        </div>
+                        <div class="table" style="height: 90%;">
+                            <div class="pact1">
+                                <div class="order_statu">
+                                    合同编号
+                                </div>
+                                 <div class="order_statu">
+                                    下单日期
+                                </div>
+                                <div class="order_statu">
+                                    订单类型
+                                </div>
+                                <div class="order_statu">
+                                    付款状态
+                                </div>
+                                <div class="order_statu">
+                                    订单状态
+                                </div>
+                                <div class="order_statu">
+                                    订单金额
+                                </div>
+                           </div>
+                           <div class="order_tatal">
+                                <div class="order_ul" style="height: auto;margin-bottom: 20px;overflow: auto;"></div>
+                                <div class="page-data" style="height: 0%;"> 
+                                    <div class="page-left" style="float: left;margin-left: 20px;"></div> 
+                                </div>  
+                           </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!--系统首页结束-->
+            <!--企业公告信息弹出效果展示开始-->
+            <div class="overlay_home">
+            </div>
+            <section class="corporate_actions">
+                    <div  class="corporate_h4">
+                        <span class="tall col-md-12">企业公告</span>
+                    </div>
+                    <div class="corporate_news">
+                    </div>
+                </section>
+            <!--企业公告信息弹出效果展示结束-->
+         </footer>
     </div>
     <script type="text/javascript" src="../../js/sweetalert.min.js"></script>
     <script type="text/javascript" src="../../js/jquery.min.js"></script>
     <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../../js/echarts.js"></script>
+    <script type="text/javascript" src="../../js/pager.js"></script>
     <script type="text/javascript" src="../../js/haeder.js"></script>
     <script type="text/javascript" src="../../js/footer.js"></script>
+    <script type="text/javascript" src="../../js/include.js"></script>
     <script type="text/javascript" src="../../js/route.js"></script>
     <script>
-      $(".header").load("../include/top.html");
+      $("header").load("../include/top.html");
       $("nav").load("../include/nav.html");
     </script>
-    
   </body>
 </html>

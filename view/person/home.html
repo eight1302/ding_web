@@ -2,7 +2,7 @@
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
-    <title>创元智造</title>
+    <title>云智造</title>
     <link rel="stylesheet" type="text/css" href="../../css/home.css">
     <link rel="stylesheet" type="text/css" href="../../css/nav.css">
     <link rel="stylesheet" type="text/css" href="../../css/footer.css">
@@ -13,12 +13,208 @@
     <link rel="shortcut icon" href="../cy.ico"/>
   </head>
   <body ng-app="" style="margin: 0; padding: 0;">
-    <header class="header"  ng-include="'../include/top.html'"></header>
+    <header></header>
     <div class="dashboard-top-main">
-         <nav ng-include="'../include/nav.html'"></nav>
-         <footer ng-include="'person.html'"></footer>
+         <nav></nav>
+         <footer>
+            <div class="main col-md-12 col-xs-12 col-sm-12" style="min-height: 499px;padding: 0;padding: 0 10px;margin-top: 10px;">
+                 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 feature">
+                    <div class="feature1">
+                        <div class="col-md-12 col-sm-12 col-xs-12 person_detail">
+                            <div class="col-md-4 col-sm-12 col-xs-12" style="padding: 0px;">
+                                <section class="basic_information">
+                                    <div class="basic_tital">
+                                        基本信息
+                                        <div class="basic_btn">
+                                            <span class=" icon-ok-sign"></span>
+                                            <span>保存</span>
+                                        </div>
+                                    </div>
+                                    <div class="basic_detail">
+                                        <div class="upload_img">
+                                            <div class="head_img">
+                                                <!--头像展示-->
+                                                <div id="crop-avatar" class="col-md-10" style="padding: 0;width: 80px;height: 80px;">
+                                                    <div class="avatar-view" title="Change Logo Picture"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="person_info">
+                                            <div class="col-md-6 col-xs-6 col-sm-6 one">
+                                                <span style="color: red;">*</span><strong>用户编号：</strong>
+                                                <span class="text_basic" id="basic_numbering"></span>
+                                            </div>
+                                            <div class="col-md-6 col-xs-6 col-sm-6 one" style="padding: 0;">
+                                                <span style="color: red;">*</span><strong>公司名称：</strong>
+                                                <input type="text" class="text_basic" id="basic_ompany" placeholder="公司名称">
+                                            </div>
+                                            <div class="col-md-6 col-xs-6 col-sm-6 one" >
+                                                <span style="color: red;">*</span><strong>联系电话：</strong>
+                                                <input type="text" class="text_basic" id="basic_phone" placeholder="联系电话">
+                                            </div>
+                                            <div class="col-md-6 col-xs-6 col-sm-6 one" style="padding: 0;">
+                                                <span style="color: red;">*</span><strong>绑定邮箱：</strong>
+                                                <input type="text" class="text_basic" id="basic_mail" placeholder="请绑定邮箱" style="">
+                                            </div>
+                                            <div class="col-md-6 col-xs-6 col-sm-6 one">
+                                                <span style="color: red;">*</span><strong>联系人：</strong>
+                                                <input type="text" class="text_basic" id="basic_qq" placeholder="请填写联系人">
+                                            </div>
+                                            <div class="col-md-6 col-xs-6 col-sm-6 one" style="padding: 0;">
+                                                <span style="color: red;">*</span><strong>传真地址：</strong>
+                                                <input type="text" class="text_basic" id="basic_fax" placeholder="请填传真地址">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12" style="padding: 0px;">
+                                <section class="vat_information" style=" width: 98%;"> 
+                                    <div class="vat_tital">
+                                        增值税开票信息
+                                        <div class="vat_btn">
+                                            <span class=" icon-ok-sign"></span>
+                                            <span>保存</span>
+                                        </div>
+                                    </div>
+                                    <div class="vat_detail">
+                                        <div class="col-md-6 col-xs-6 col-sm-6 one" style="padding: 0;">
+                                            <span style="color: red;">*</span><strong>开票公司：</strong>     
+                                            <input type="text" class="text_vat" id="vat_company" placeholder="请填开票公司名称" style="">
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 col-sm-6 one" style="padding: 0;">    
+                                            <span style="color: red;">*</span><strong>&nbsp;税&nbsp;&nbsp;号：</strong>                  
+                                            <input type="text" class="text_vat" id="vat_ein" placeholder="请填写开票公司税号">
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 col-sm-6 one" style="padding: 0;">
+                                            <span style="color: red;">*</span><strong>&nbsp;地&nbsp;&nbsp;址&nbsp;：</strong>
+                                            <input type="text" class="text_vat" id="vat_address" placeholder="请填写开票地址">
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 col-sm-6 one" style="padding: 0;">
+                                            <span style="color: red;">*</span><strong>开户行：</strong>
+                                            <input type="text" class=" text_vat" id="vat_opening_bank" placeholder="请填写开户行" style="">   
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 col-sm-6 one" style="padding: 0;">                      
+                                            <span style="color: red;">*</span><strong>&nbsp;电&nbsp;&nbsp;话&nbsp;：</strong>
+                                            <input type="text" class="text_vat" id="vat_phone" placeholder="请填写开票公司电话">
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 col-sm-6 one" style="padding: 0;">
+                                            <span style="color: red;">*</span><strong>&nbsp;账&nbsp;&nbsp;户：</strong>
+                                            <input type="text" class="text_vat" id="vat_account" placeholder="请填写开户账号">
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12" style="padding: 0px;">
+                                <section class="billing_information">
+                                     <div class="billing_tital">
+                                        开票收件资料
+                                        <div class="billing_btn">
+                                            <span class=" icon-ok-sign"></span>
+                                            <span>保存</span>
+                                        </div>
+                                    </div>
+                                    <div class="billing_detail">
+                                        <div class="col-md-12 col-xs-12 col-sm-12 one">
+                                            <span style="color: red;">*</span><strong>收件人：</strong>
+                                            <input type="text" class="text_billing" id="billing_person" placeholder="请填写发票收件人">
+                                        </div>
+                                        <div class="col-md-12 col-xs-12 col-sm-12 one">
+                                            <span style="color: red;">*</span><strong>电&nbsp;&nbsp;&nbsp;&nbsp;话：</strong>
+                                            <input type="text" class="text_billing" id="billing_phone" placeholder="请填写发票收件人电话">
+                                        </div>
+                                        <div class="col-md-12 col-xs-12 col-sm-12 one">
+                                            <span style="color: red;">*</span><strong>地&nbsp;&nbsp;&nbsp;&nbsp;址：</strong>
+                                            <input type="text" class="text_billing" id="billing_address" placeholder="请填写发票收件人地址">
+                                        </div>
+                                    </div> 
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 person_address">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 address_tital">
+                                <div>收货地址</div>
+                            </div>
+                            <div class="to_address"><!--默认地址--></div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="add_new_address">
+                                    <span class="icon-plus-sign-alt" style="color: #089de0;font-size: 20px;"></span>
+                                </div>
+                                <span style="margin-left: 20px;line-height: 20px;font-size: 12px;">添加新的收货地址</span>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 to_address_info"><!--收件地址--></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!--新增默认地址布局开始-->
+            <div class="overlay_num1"></div>
+            <section class="new_address">
+                <div class="new_address_tital">
+                    <div class="product_order_menu">
+                        <span style="font-size: 18px;">个人信息</span>
+                    </div>
+                </div>
+                <div class="detail" style="margin-bottom: 20px;">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 15px;">
+                        <div class="col-md-6 col-sm-6 col-xs-6" style="padding: 0;max-width: 46%;">
+                            <label class="col-md-6" for="new_name" style="max-width: 46%;padding: 0;">联系人姓名：</label>
+                            <input type="text" name="" class="col-md-6" id="new_name" style="width: 100px;" value="">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6" style="padding: 0;max-width: 46%;float: right;">
+                            <label class="col-md-6" for="new_phone" style="max-width: 46%;padding: 0;">联系人电话：</label>
+                            <input type="text"  name="" class="col-md-6" style="width: 100px;" id="new_phone" value="">
+                        </div>
+                    </div>
+                    <div id="distpicker4" class="col-md-12" style="overflow: hidden;margin-top: 20px;">
+                        <div class="col-md-12 col-sm-12 col-xs-12 form-group" style="padding: 5px;">
+                            <label class="sr-only" for="province">Province</label>
+                            <select class="form-control" id="province" value=""></select>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 form-group" style="padding: 5px;">
+                            <label class="sr-only" for="city">City</label>
+                            <select class="form-control" id="city" value=""></select>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 form-group" style="padding: 5px;">
+                            <label class="sr-only" for="district">District</label>
+                            <select class="form-control" id="district" value=""></select>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 20px;">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12" style="padding-right: 0;">详细地址：</div>
+                        <textarea class="col-lg-10 col-md-10 col-sm-10 col-xs-12" id="new_detail" style="height: 40px;resize:none;" style="max-width: 80%;" value=""></textarea>
+                    </div>
+                </div>
+                <!--按钮操作结束-->
+                <div class="btn_pr">
+                    <div class="add_new">
+                        <img src="../../img/add.png">
+                        <span>新增</span>
+                    </div>
+                    <div class="cental_pro">
+                        <img src="../../img/cancel.png">
+                        <span>取消</span>
+                    </div>
+                </div>
+                <!--按钮操作结束-->
+            </section>
+            <!--新增默认地址布局结束-->
+            <!--上传头像开始-->
+            <section class="credentials">
+                <div class="uplod">
+                    <label style="margin-top: 20px;margin-left: 15px;">上传图片：<input type="file" class="file" id="file" value="" style="float: right;"></label>
+                    <div class="up_img"><!--预览图片--><img src="" class="img" style="width: 100%;height: 100%; border-radius: 100%;"></div>
+                </div>
+                <div class="method_three">
+                    <div class="up_btn"><span class="icon-upload-alt" style="margin-right: 5px;font-size: 1.2em;"></span>上传</div>
+                    <div class="cancal_btn" style="background: #939ea7">取消</div>
+                    <span class="text_info" style="color: red;margin-left: 30px;display: none;">请选择头像</span>
+                </div>
+            </section>
+                <!--上传头像结束-->
+         </footer>
     </div>
-    <script type="text/javascript" src="../../js/angular.min.js"></script>
     <script type="text/javascript" src="../../js/sweetalert.min.js"></script>
     <script type="text/javascript" src="../../js/jquery.min.js"></script>
     <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
@@ -30,5 +226,9 @@
     <script type="text/javascript" src="../../js/distpicker.data.js"></script>
     <script type="text/javascript" src="../../js/distpicker.js"></script>
     <script type="text/javascript" src="../../js/main.js"></script>
+     <script>
+      $("header").load("../include/top.html");
+      $("nav").load("../include/nav.html");
+    </script>
   </body>
 </html>
