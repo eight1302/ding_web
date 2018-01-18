@@ -1,0 +1,28 @@
+{
+    "data":{
+        "list":{
+            "id":"1",
+            "new":"订单CY2017-008审核通过，请确认",
+            "new_order":"订单CY2017-008审核通过，请确认",
+            "new_info":"订单CY2017-008审核通过，请确认"
+        },
+        "state":200
+    },
+    "user":{
+    	"list":{
+    		"admin":"admin",
+    		"pass":"123456"
+    	},
+    	"state":200
+    },
+    "oemproduct":{
+        "state":200,
+        "info":"提交成功!"
+    },
+    "text":{
+        "state":200,
+        "info":"提交成功!"
+    },
+    "id" : 1
+}
+

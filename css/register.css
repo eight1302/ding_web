@@ -1,0 +1,241 @@
+@charset "utf-8";
+/*注册样式设计*/
+
+body{
+	background: url(../img/login.jpg) no-repeat center center fixed;
+	margin: 0;
+	padding: 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+img{
+	margin: 0 auto;
+}
+.logo{
+	margin: 40px;
+	width: 356px;
+	height: 20px;
+}
+.register{
+	width: 900px;
+    height: 450px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.table_describe{
+    width: 530px;
+    height: 60px;
+    margin: 0 auto;
+}
+.login{
+	width: 100%;
+	height: 2%;
+	margin-bottom: 10px;
+}
+p{
+	float: right;
+	color: #fff;
+}
+.login_a{
+	color: #ffe200;
+	text-decoration: none;
+}
+.login_a:hover{
+	color: #ffe200;
+}
+nav{
+    width: 100%;
+    height: 425px;
+    background: white;
+    margin-top: 3%;
+}
+.table{
+	width: 560px;
+	height: 320px;
+	margin: 0 auto;
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+label{
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+input{
+	width: 230px;
+	height: 30px;
+	line-height: 30px;
+}
+.security_input{
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+}
+.free{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 220px;
+    margin-top: -30px;
+}
+.security_button{
+	margin: 0;
+	padding: 0;
+	width: 106px;
+	height: 30px;
+	line-height: 30px;
+	border:none;
+}
+input::-webkit-input-placeholder{
+	color: #c9c9c9;
+}
+
+.phone_msg,.user_msg,.pass_msg,.confirm_msg,.phone_msg,.company_msg,.provinces_msg{
+	width: 220px;
+	height: 30px;
+	float: right;
+	display:show;
+}
+.security_msg{
+	width: 220px;
+	height: 30px;
+	margin-top: -30px;
+	float: right;
+	display: none;
+}
+.ms{
+	width: 220px;
+	height: 30px;
+	float: right;
+	display:none;
+}
+.table_label{
+	float: right;
+}
+.user,.table_phone,.pass,.pass_confirm,.security,.company,.phone_security,.provinces{
+	float: left;
+}
+
+.btn{
+	margin: 0;
+	padding: 0;
+	width: 112px;
+	margin-top: -1px;
+}
+.regbtn{
+	margin-top: 15px;
+}
+.regbtn1{
+	width: 180px;
+	height: 30px;
+	background: #ff9800;
+	border: none; 
+	margin-left: 90px;
+	margin-bottom: 10px;
+}
+.protocol{
+	width: 180px;
+    height: 20px;
+    float: right;
+    margin-top: -35px;
+    margin-right: 86px;
+}
+.protocol_a{
+	color: #ffe200;;
+}
+.protocol_a:hover{
+	color: #ffe200;;
+}
+.checkbox1{
+	width: 15px;
+	height: 15px;
+}
+strong{
+	font-size: 12px;
+	color: #656;
+}
+.member{
+	width: 300px;
+	height: 350px;
+	margin: 0 auto;
+	margin-top: 30px;
+	float: right;
+	margin-right: 10px;
+}
+.sever_member{
+	width: 80%;
+	height: 110px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #c1c1c1;
+}
+.sever_dse{
+	font-size: 14px;
+	float: left;
+	color: #000;
+}
+.sever_dhi{
+	width: 100%;
+}
+.sever_help{
+	width: 100%;
+	color: #9e9c9c;
+	font-size: 14px;	
+	margin-bottom: 10px;
+}
+.sever_helpif{
+	margin-left: 50px;
+}
+.sever_img{
+	width: 55px;
+	height: 52px;
+	margin-left: 80px;
+	margin-bottom: 15px;
+}
+.sever_info{
+	color: #c91623;
+	margin-right: 10px;
+}
+.sever_phone{
+	margin-top: 30px;
+}
+.telphone{
+	width: 100%;
+	margin-top: 15px;
+}
+.sever_telphone{
+	color: #c91623;
+	font-size: 20px;
+	margin-left: 45px;
+}
+.backg{
+	float: left;
+	width: 5px;
+	height: 350px;
+	margin-left: 10px;
+}
+.desinfo{
+	float: right;
+	width: 265px;
+}
+.sever{
+	font-size: 14px;
+}
+h4{
+	margin: 10px;
+}
+.describe{
+    width: 100%;
+    text-align: center;
+    height: 20px;
+    margin-top: 3%;
+    color: #fff;
+}

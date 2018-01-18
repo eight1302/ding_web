@@ -1,0 +1,32 @@
+
+{
+    "orderlist":[
+        {"id":"1","xu_number":"序号","numbering":"编号","name": "名称","type": "型号","encapsulation":"封装","bit_number":"位号","accuracy":"精度","brands" : "品牌","quantity" : "数量"}
+    ],
+    "oem_info":[
+        {"id":"1","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"2","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"3","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"4","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"5","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"6","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"7","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"8","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"9","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"10","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"11","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"12","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"13","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"14","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"15","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"16","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"17","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"18","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"19","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"20","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"21","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"22","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"},
+        {"id":"23","numbering":"CY00001","name": "医疗设备","type": "中型","encapsulation":"豪华","bit_number":"c1,c2,c3","accuracy":"高度","brands" : "创元","quantity" : "100","remark":"假数据"}
+    ],  
+    "state":200
+}

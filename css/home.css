@@ -1,0 +1,470 @@
+@charset "utf-8";
+/*顶部页面样式设计*/
+header{
+	width: 100%;
+	background: url(../img/back.png) no-repeat center center fixed;
+	margin: 0;
+	padding: 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.contact_top{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 110px;
+}
+.contact_inf{
+	width: 100%;
+	height: 110px;
+	overflow: hidden;
+	display: inline-flex;
+	color: #fff;
+	font-size: 15px;
+}
+.relation{
+	width: 100%;
+	line-height: 15px;
+	font-size: 12px;
+}
+p{
+	margin:0;
+	padding: 0;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.info_person{
+	width: 40%;
+	height: auto;
+	margin-top: 5px;
+	overflow: hidden;
+	margin-left: 50px;
+}
+.person{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	font-size: 12px;
+}
+.complaints{
+	width: 100%;
+	height: auto;
+	font-size: 12px;
+}
+.operation{
+	margin-top: 15px;
+	width: 60%;
+	height: auto;
+}
+.user_operate{
+	width: 305px;
+	height: auto;
+	float: right;
+}
+.news{
+	margin-left: 20px;
+	cursor: pointer;
+}
+.pop{
+	cursor: pointer;
+}
+.user_message{
+	width: 110px;
+    height: 30px;
+    border: 1px solid #4592c7;
+    background-color: #4592c7;
+    border-radius: 3px;
+    margin-top: -25px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.hade{
+	line-height: 28px;
+    margin-left: -20px;
+    border-radius: 100%;
+    /* margin-top: 1px; */
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+.name{
+	margin-left: 35px;
+    margin-top: -24px;
+    font-size: 10px;
+}
+.logout{
+    margin-right: 20px;
+    width: 60px;
+    height: 30px;
+    margin-left: 200px;
+    margin-top: -30px;
+    border: 1px solid #4592c7;
+    background-color: #4592c7;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.out{
+	margin-right: 8px;
+    margin-left: -15px;
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+    font-size: 12px;
+}
+a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+	font-size: 12px;
+	color: #fff;
+}
+.lot_img{
+	height: 14px;
+    margin-left: -8px;
+    margin-top: -4px;
+}
+/*交易*/
+.volume{
+    height: 30px;
+    margin-top: 30px;
+    font-size: 12px;
+    margin-left: 90px;
+    float: right;
+    margin-right: 20px;
+}
+.volume_year{
+	width: 130px;
+	height: 30px;
+	margin-right: 10px;
+	margin-left: 17%;
+}
+.volume_year_data{
+	width: 60px;
+    height: 25px;
+    border: 1px solid #4592c7;
+    background-color: #4592c7;
+    border-radius: 3px;
+    opacity: 0.9;
+    text-align: center;
+    float: left;
+}
+.data_year{
+	font-size: 14px;
+    line-height: 24px;
+}
+.volume_mouth{
+	width: 130px;
+	height: 25px;
+	margin-right: 10px;
+	margin-top: -30px;
+	margin-left: 36%;
+}
+.volume_mouth_data{
+    width: 60px;
+    height: 25px;
+    border: 1px solid #428ec4;
+    background-color: #428ec4;
+    border-radius: 3px;
+    text-align: center;
+    float: left;
+    margin-top: -26px;
+}
+.data_mouth{
+	font-size: 14px;
+	line-height: 24px;
+}
+.volume_week{
+	width: 130px;
+	height: 25px;
+	margin-right: 10px;
+	margin-top: -26px;
+	margin-left: 55%;
+}
+
+.volume_week_data{
+    width: 60px;
+    height: 25px;
+    border: 1px solid #428ec4;
+    background-color: #428ec4;
+    border-radius: 3px;
+    text-align: center;
+    float: left;
+    margin-top: -26px;
+}
+.data_week{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.deal{
+	width: 60px;
+    float: right;
+    line-height: 28px;
+    border-bottom: 1px solid #5db5f1;
+    margin-top: -30px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+/*
+*搜索框设计
+*/
+.search{
+	display: block;
+	margin-left: 430px;
+	margin-top: -35px;
+	width: 130px;
+	height: 33px;
+	border-radius: 3px;
+	border:1px solid #7bc5f9;
+}
+.search_t{
+	margin-top: -30px;
+}
+.sreach_img{
+	width: 16px; /*设置图片显示的宽*/
+	height: 16px; /*图片显示的高*/
+	margin-top: -5px;
+	margin-left: -5px;
+}
+.btn{
+	margin-top: -52px;
+    width: 31px;
+    height: 31px;
+    margin-left: 95px;
+    background: #428ec4;
+}
+.search_table{
+	width: 30px;
+	height: 31px;
+	width: 100%;
+	background: #428ec4;
+	border:none;
+	border-radius: 3px;
+	font-size: 14px;
+}
+input::-webkit-input-placeholder{
+	color: #fff;
+}
+.npay{
+	width: 100px;
+    height: auto;
+    margin-top: -35px;
+    margin-left: 570px;
+}
+.rmb{
+	margin-top: 5px;
+}
+.new-pay{
+    width: 112px;
+    height: 25px;
+    margin-top: -25px;
+    margin-left: 645px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: #fff;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.now-pay1{
+    color: #277296;
+    line-height: 25px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.pay1_img{
+    margin-top: -5px;
+    margin-left: 7px;
+}
+/*下部页面式设计*/
+.dashboard-top-main{
+	width: 100%;
+	height: auto;
+}
+nav{
+	width: 6.8%;
+	min-width: 130px;
+	height: 100%;
+	float: left;
+}
+/*右侧页面设计*/
+footer{
+	width:93%;
+    height: 89%;
+    background-color: #edf0f5;
+    float: right;
+    position: fixed;
+    margin-left: 131px;
+    min-width: 1200px;
+    overflow-x: auto;
+    border-left: 1px solid #bfbfbf;
+}
+
+/*弹出消息页面设计*/
+.toast_news{
+    width: 350px;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #888787;
+    background-color: #edf0f5;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    float: right;
+    margin-left: 42%;
+    right: 0px;
+    margin-right: 10px; 
+}
+.toast_news1{
+	margin: 0；
+	padding: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #68a0ce;
+}
+.new_h4{
+	float: left;
+	margin-left: 10px; 
+    line-height: 40px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+.cancel_new{
+	float: right;
+	margin-right: 25px;
+	margin-top: 10px;
+	color: #fff;
+	cursor: pointer;
+}
+.toast_news2{
+	width: 95%;
+    height: 80px;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.new3{
+	width: 100%;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+
+/*弹出遮盖层*/
+.overlay_one,.overlay1_tow,.overflow_three1,.overlay_oem_updata,.overflow_weld,.overlay_weld_tow{
+	background: #000;
+    filter: alpha(opacity=80); /* IE的透明度 */
+    opacity: 0.8;  /* 透明度 */
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100; /* 此处的图层要大于页面 */
+    display:none;
+    position:fixed; 
+}
+.overlay_uplod{
+    background: #000;
+    filter: alpha(opacity=80); /* IE的透明度 */
+    opacity: 0.8;  /* 透明度 */
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 200; /* 此处的图层要大于页面 */
+    display:none;
+    position:fixed; 
+}
+.overlay_home,.bom_procurement{
+    display: block;
+    background: #000;
+    filter: alpha(opacity80); /* IE的透明度 */
+    opacity: 0.8;  /* 透明度 */
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100; /* 此处的图层要大于页面 */
+    position:fixed; 
+}
+
+/*oem查看详情*/
+.overlay2_tow{
+    background: #000;
+    filter: alpha(opacity=80); /* IE的透明度 */
+    opacity: 0.8;  /* 透明度 */
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100; /* 此处的图层要大于页面 */
+    display:none;
+    position:fixed; 
+}
+.overlay_num1,.overlay_repair{
+    background: #000;
+    filter: alpha(opacity=80); /* IE的透明度 */
+    opacity: 0.8;  /* 透明度 */
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100; /* 此处的图层要大于页面 */
+    display:none;
+    position:fixed; 
+}
+.product_repair{
+        background: #000;
+    filter: alpha(opacity=80); /* IE的透明度 */
+    opacity: 0.8;  /* 透明度 */
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 200; /* 此处的图层要大于页面 */
+    display:none;
+    position:fixed; 
+}
+/*上传头像*/
+.credentials{
+    
+    width: 30%;
+    height: 400px;
+    background: red;
+    display: block;
+    position: absolute;
+    background-color: #edf0f5;
+    z-index: 1000;
+    margin: auto;
+    display: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #716c6c;
+    margin-left: 25%;
+}
+.uplod{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+    background: #fff;
+}

@@ -1,0 +1,394 @@
+@charset "utf-8";
+/*首页主页面样式*/
+footer{
+	width:93%;
+	height: 89%;
+}
+.main{
+	width: 100%;
+	margin-top: 10px;
+	height: 95%;
+}
+section{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+.notice{
+	width: 24.8%;
+    height: 98%;
+    float: left;
+}
+.carousel,.carousel-inner{
+	height: 100%;
+}
+.item{
+	width: 100%;height: 100%;
+}
+
+.carousel-control{
+	line-height: 250px;
+	font-size: 20px;
+}
+.carousel-control:hover{
+	line-height: 250px;
+	font-size: 20px;
+}
+.carouse{
+	width: 100%;
+	height: 300px;
+}
+.item{
+	width: 100%;
+	height: 100%;
+}
+.order{
+	width: 74.5%;
+	height: 98%;
+	float: right;
+	margin-left: 5px;
+}
+.new{
+	margin-top: 10px;
+	width: 100%;
+	height: 68%;
+	border:1px solid #d7e0f1;
+	background: #fff;
+}
+.bulletin{
+	margin:10px;
+	height: 30px; 
+	margin-top: 15px;
+}
+.bulletin_firm{
+	font-size: 14px;
+	text-align: center;
+	background-image: url(../img/back.png) no-repeat center center fixed;
+}
+.bulletin_img{
+	text-align: center;
+	overflow: hidden;
+}
+.bulletin_new{
+	 display: block;
+    margin-top: 15px;
+    width: 100%;
+    height: 83%;
+    overflow: auto;
+}
+.bull_news>li{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	overflow: hidden;
+	float: left;
+}
+.chuang_news{
+	margin: 0;
+	padding: 0;
+}
+.chuang_time{
+	margin: 0;
+	padding: 0;
+}
+.chuang_round{
+	margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    line-height: 40px;
+    margin-top: 15px;
+    float: right;
+}
+.chuang_id,.chuang_tital{
+	display: none;
+}
+.round{
+	width: 10px;
+	height: 10px;
+	line-height: 20px;
+	background: #2b7eb7;
+	border-radius: 100%;
+}
+::-webkit-scrollbar  
+{  
+    width: 5px;  
+    height: 5px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
+    border-radius: 10px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #2b7eb7;  
+}  
+
+/*订单状态列表页面设计*/
+.order_st{
+	width: 100%;
+	height: 68%;
+	border:1px solid #d7e0f1;
+	background-color: #fff;
+}
+.order_st1{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #887a7a;
+	overflow: hidden;
+}
+.pact{
+	width: 100%;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: center;
+}
+.pact1{
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #3494d8;
+	color: #fff;
+}
+.pact2{
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    overflow: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+select{
+	text-align: center;
+	width: 120px;
+	height: 25px;
+	line-height: 25px;
+	margin-right: 20px;
+}
+table{
+	width: 100%;
+	display: block;
+	text-align: center;
+    height: 330px;
+    line-height: 30px;
+    overflow: auto;
+    background-color: #000;
+}
+.order_tatal{
+    height: 88%;
+    display: block;
+    font-size: 12px;
+    overflow: auto;
+    width: 100%;
+}
+.order_ul>li{
+	display: block;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    width: 100%;
+    font-size: 12px;
+}
+/*订单状态列图形面设计*/
+.order_echart{
+	margin-bottom: 10px;
+    height: 30%;
+    border: 1px solid #d7e0f1;
+    background-color: #fff;
+}
+.order_data{
+	padding: 10px 15px;
+    height: 36px;
+    line-height: 26px;
+}
+.order_analysis{
+	font-size: 14px;
+	color: #887a7a;
+}
+.order_year{
+	font-size: 14px;
+	color: #887a7a;
+	text-align: center;
+}
+.order_mouth{
+	font-size: 14px;
+	color: #887a7a;
+	text-align: center;
+}
+.order_week{
+	font-size: 14px;
+	color: #887a7a;
+	text-align: center;
+}
+.order_echart1{
+	height: 90%;
+	overflow: hidden;
+	margin-top: 5px;
+}
+.mychart1,.mychart2,.mychart3{
+	height: 100%;
+}
+
+/*企业公告弹出窗设计*/
+.corporate_actions{
+    display: block;
+    width: 36%;
+    height: 80%;
+    background-color: #edf0f5;
+    position: absolute;
+    z-index: 100;
+    margin: auto;
+    margin-left: 32%;
+    display: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #716c6c;
+}
+.corporate_h4{
+	width: 100%;
+    height: 40px;
+    margin: auto;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.company_tital{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+}
+.company_title{
+	float: left;
+	margin-left: 30px;
+	color: #000;
+	font-size: 15px;
+}
+.company_tital_img{
+	float: right;
+	margin-right: 30px;
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.conpany_img{
+	width: 100%;
+	height: 85%;
+	overflow: auto;
+}
+.conpany_img_products{
+	width: 100%;
+	height: 50%;
+}
+.corporate_news{
+	width: 98%;
+	height: 80%;
+	margin: auto;
+	overflow: auto;
+	overflow-y: auto;
+}
+.corporate_news::-webkit-scrollbar{
+	display:none;
+}
+.corporate_news_tital{
+	width: 95%;
+    height: 100%;
+    line-height: 30px;
+    background-color: #fff;
+    color: #3393c1;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: 0 0 5px #b7b2b2;
+}
+.news_tital{
+	margin-left: 35%;
+}
+.corporate_news_tital_time{
+	width: 80px;
+	margin: auto;
+	color: #777373;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+.tital_p{
+	font-size: 12px;
+	color: #000;
+	text-indent:2em; 
+	margin: 0 10px;
+	max-height: 50%;
+	overflow: auto;
+}
+/*显示隐藏菜单*/
+.pcb_oec{
+	position: absolute;
+	display: block;
+    margin: 0;
+    padding: 0;
+    width: 140px;
+    border: 1px solid #edf0f5;
+    background-color: #fff;
+    border: 1px solid #bfbfbf;
+    margin-top: 160px; 
+    z-index: 999;
+    display: none;
+}
+ul[class="pcb_li"]>li{
+	height: 40px;
+	line-height: 40px;
+	font-size: 10px;
+	overflow: hidden;
+	font-size: 15px;
+}
+
+/*弹出消息页面设计*/
+.toast_news1{
+	margin: 0；
+	padding: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #68a0ce;
+}
+.new_h4{
+	float: left;
+	margin-left: 10px; 
+    line-height: 40px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+.cancel_new{
+	float: right;
+	margin-right: 25px;
+	margin-top: 10px;
+	color: #fff;
+	cursor: pointer;
+}
+.toast_news2{
+	width: 95%;
+    height: 80px;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.new3{
+	width: 100%;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}

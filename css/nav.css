@@ -1,0 +1,147 @@
+@charset "utf-8";
+/*菜单页面设计*/
+footer_menu.nav{	
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+@media .nav(min-width: 80px;)
+.menu{
+	width: 100%;
+	height: auto;
+}
+ul{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+li,.home_li{
+	width: 100%;
+    height: 60px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1em;
+    color: #a99797;
+    cursor: pointer;
+
+}
+li:hover{
+	background-color: #f5f7f9;
+	color: #69adcc;
+	cursor: pointer;
+}
+a:hover{
+	display: block;
+	text-decoration: none;
+	cursor: default;
+}
+.navdown{
+	background-color: #f5f7f9;
+}
+.home{
+	display: block;
+	margin-bottom: 10px;
+}
+.home_info{
+	display: block;
+	margin-top: -5px;
+	line-height: 0px;
+}
+/*下面*/
+.footer_menu{
+	width: 130px;
+    /* margin-top: 50px; */
+    height: 150px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+}
+.qr_code{
+	width: 80px;
+	height: 80px;
+	margin-left: 25px;
+}
+.des{
+	width: 80%;
+	height: 50px;
+	border-top: 2px solid #e6eef6;
+	margin-top: 15px;
+	margin-left: 5px;
+	overflow: hidden;
+}
+.chuang{
+	width: 110px;
+	overflow: hidden;
+	text-align: center;
+}
+.yuan{
+	font-size: 10px;
+	color: #24527b;
+	overflow: hidden;
+}
+.yuan1{
+	font-size: 10px; 
+}
+.yuan2{
+	width: 90px;
+	margin-top: 10px;
+	font-size: 10px;
+	overflow: hidden;
+	margin-left: 5px;
+	text-align: center;
+}
+.sale_menu{
+    width: 167px;
+    height: 180px;
+    z-index: 100;
+    background: #fff;
+    margin-left: 130px;
+    margin-top: 350px;
+    position: absolute;
+    display: none;
+    opacity: 0.9;
+    display: block;
+    top: 0;
+}
+.sale_ul>li:hover{
+	background: #2a7eb7;
+	color: #fff;
+}
+.order_contract_menu{
+    top: 0;
+    width: 167px;
+    height: 120px;
+    z-index: 100;
+    background: #fff;
+    margin-left: 130px;
+    margin-top: 230px;
+    position: absolute;
+    display: none;
+    opacity: 0.9;
+    display: block;
+}
+.order_contract_ul>li:hover{
+	background: #2a7eb7;
+	color: #fff;
+}
+.server_order_menu{
+    top: 0;
+    display: block;
+    width: 167px;
+    height: 120px;
+    z-index: 100;
+    background: #fff;
+    margin-left: 130px;
+    margin-top: 170px;
+    position: absolute;
+    display: none;
+    opacity: 0.9;
+}
+.server_order_ul>li:hover{
+	background-color: #2c7fd2;
+    color: #f3f5f7;
+}

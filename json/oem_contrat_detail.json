@@ -1,0 +1,31 @@
+{
+	 "data":{
+        "oem":[
+            {"id":"1","product_no":"CY170925001","product_name":"OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品OEM产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"2","product_no":"CY170925002","product_name":"OEM产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"3","product_no":"CY170925003","product_name":"OEM产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"4","product_no":"CY170925004","product_name":"OEM产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"5","product_no":"CY170925005","product_name":"OEM产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"6","product_no":"CY170925006","product_name":"OEM产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"7","product_no":"CY170925007","product_name":"OEM产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"8","product_no":"CY170925008","product_name":"OEM产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"9","product_no":"CY170925009","product_name":"OEM产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"10","product_no":"CY170925010","product_name":"OEM产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"11","product_no":"CY170925013","product_name":"OEM产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"}
+        ],
+         "weld":[
+            {"id":"1","product_no":"CY170925001","product_name":"焊接产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"2","product_no":"CY170925002","product_name":"焊接产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"3","product_no":"CY170925003","product_name":"焊接产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"4","product_no":"CY170925004","product_name":"焊接产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"5","product_no":"CY170925005","product_name":"焊接产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"6","product_no":"CY170925006","product_name":"焊接产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"7","product_no":"CY170925007","product_name":"焊接产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"8","product_no":"CY170925008","product_name":"焊接产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"9","product_no":"CY170925009","product_name":"焊接产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"10","product_no":"CY170925010","product_name":"焊接产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"},
+            {"id":"11","product_no":"CY170925013","product_name":"焊接产品","product_model":"CY-17-01A","product_quantity":"270","sale":"2700"}
+        ],
+        "state":200
+    }
+}

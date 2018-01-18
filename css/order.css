@@ -1,0 +1,704 @@
+@charset "utf-8";
+/*订单管理样式设计*/
+.order_func{
+    display: block;
+    height: 93%;
+    background: #fff;
+    width: 98%;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    margin-top: 15px;
+    border: 1px solid #d7e0f1;
+}
+.order_fu{
+    height: 98%;
+}
+.order_menu{
+	height: 40px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.order_oem_menu,.order_weld_menu,.order_flow{
+	display: block;
+	background: #c7d1d4;
+	line-height: 30px;
+	padding: 0;
+	margin: 0 10px;
+	height: 30px;
+	margin-top: 10px;
+	color: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.one{
+	margin: 10px 0;
+    text-align: right;
+    max-width: 160px;
+    padding: 0;
+}
+.flow{
+	margin-left: 5px;
+    max-width: 71%;
+    height: 130px;
+    margin-top: 10px;
+    z-index: 100;
+    display: none;
+    border: 1px solid #efe5e5;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #b9b3b3;
+    padding: 0;
+    margin-left: -5px;
+    background: #fff;
+    cursor: pointer;
+}
+.tow{
+	width: 12.5%;
+	float: left;
+	font-size: 10px;
+}
+.three{
+	width: 12.5%;
+	float: left;
+	font-size: 10px;
+}
+.round_red{
+	width: 15px;
+	height: 15px;
+	background: #2196f3;
+	font-size: 10px;
+	color: #fff;
+	line-height: 16px;
+	margin: auto;
+	margin-bottom: 5px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+
+}
+.round_green{
+	width: 15px;
+	height: 15px;
+	background: #8bc34a;
+	font-size: 10px;
+	color: #fff;
+	line-height: 16px;
+	margin: auto;
+	margin-bottom: 5px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+
+}
+.round_three{
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	background: #4caf50;
+	font-size: 10px;
+	color: #fff;
+	line-height: 16px;
+	margin: auto;
+	margin-bottom: 5px;
+}
+.timeline_red{
+	position: absolute;
+    border-bottom: 1px solid #03a9f4;
+    margin-top: 17px;
+    max-width: 71%;
+    margin-left: 67px;
+}
+.timeline_green{
+	position: absolute;
+    border-bottom: 1px solid #8BC34A;
+    margin-top: 17px;
+    max-width: 85%;
+    margin-left: 52px;
+}
+.order_main{
+	margin-top: 20px;
+	display: block;
+    height: 656px;
+}
+.data1::-webkit-input-placeholder,.data2::-webkit-input-placeholder{
+    color: #666;
+}
+.data_oem_1,.data_oem_2,.data_weld_1,.data_weld_2{
+    background: #edf0f5;
+    border-radius: 10px;
+    border: none;
+}
+/*主页面操作布局*/
+.oem{
+	padding: 0;
+	display: block;
+}
+.weld{
+	display: block;
+}
+.order_main_oem{
+    height: 92%;
+}
+.order_main_weld{
+    height: 92%;
+    padding: 0;
+}
+.oreder_operation{
+	height: 40px;
+    padding: 0;
+    float: right;
+    max-width: 72%;
+    margin-top: -42px;
+    margin-bottom: 10px;
+}
+.oem_delete,.weld_delete{
+    padding: 0;
+    max-width: 127px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -2px;
+    color: #fff;
+}
+.oem_pay{
+	background: #8bc34a;
+}
+.oem_edit{
+	background: #00bcd4;
+}
+.oem_delete,.weld_delete{
+	background: red;
+}
+.search_ome_btn,.search_weld_btn{
+	width: 26px;
+    padding: 0;
+    height: 26px;
+    background: #03A9F4;
+    text-align: center;
+    line-height: 26px;
+    font-size: 17px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+/*表头*/
+.tital_detail{
+	width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #03A9F4;
+    font-size: 15px;
+    padding: 0;
+}
+.ordinal{
+	width: 2%;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+.contract_no{
+	width: 7%;
+    text-align: center;
+ 	float: left;
+ 	overflow: hidden;
+}
+.data_order{
+	float: left;
+    width: 7%;
+    text-align: center;
+    overflow: hidden;
+}
+.data_play{
+    float: left;
+    width: 7%;
+    text-align: center;
+    overflow: hidden;
+}
+.product_name{
+	float: left;
+    width: 7%;
+    text-align: center;
+    overflow: hidden;
+}
+.product_model{
+	float: left;
+    width: 7%;
+    text-align: center;
+    overflow: hidden;
+}
+.product_quantity{
+	float: left;
+    width: 7%;
+    text-align: center;
+    overflow: hidden;
+}
+.tax{
+	float: left;
+    width: 7%;
+    text-align: center;
+    overflow: hidden;
+}
+.full_payment_rate{
+	float: left;
+    width: 7%;
+    text-align: center;
+    overflow: hidden;
+}
+.down_payment{
+	float: left;
+    width: 7%;
+    text-align: center;
+    overflow: hidden;
+}
+.clients_confirmation{
+	float: left;
+    width: 7%;
+    text-align: center;
+    overflow: hidden;
+}
+.order_status{
+	float: left;
+    width: 7%;
+    text-align: center;
+    overflow: hidden;
+}
+.payment_status{
+ 	float: left;
+    width: 7%;
+    text-align: center;
+    overflow: hidden;
+}
+.upload_payment{
+	float: left;
+    width: 7%;
+    text-align: center;
+    overflow: hidden;
+}
+.contract_details{
+ 	float: left;
+    width: 7%;
+    text-align: center;
+    overflow: hidden;
+}
+
+/*oem数据详情*/
+.data_detail_oem,.data_detail_weld{
+    display: block;
+    width: 100%;
+    height: 90%;
+    min-height: 70%;
+    color: #03a9f4;
+    overflow: auto;
+}
+.oem_data_detail,.weld_data_detail{
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+    width: 100%;
+}
+.oem_data_detail:nth-child(2n){
+	background: #f5f5f5;
+}
+.oem_data_detail:hover{
+	background: #eaeaea;
+}
+.weld_data_detail:nth-child(2n){
+    background: #f5f5f5;
+}
+.weld_data_detail:hover{
+    background: #eaeaea;
+}
+.user_determine{
+    width: 45%;
+    background: #56cc9c;
+    border-radius: 11px;
+    color: #fff;
+    margin-top: 8px;
+    line-height: 15px;
+    font-size: 10px;
+    margin-left: 1%;
+}
+.user_cancel{
+    width: 45%;
+    background: #f44336;
+    border-radius: 11px;
+    color: #fff;
+    margin: auto;
+    margin-top: 10px;
+    margin-top: 8px;
+    line-height: 15px;
+    float: right;
+    font-size: 10px;
+
+}
+.payment_oem{
+    height: 95%;
+    width: 95%;
+    background: #f44336;
+    line-height: 22px;
+    margin-top: 8px;
+    border-radius: 11px;
+    color: #fff;
+}
+.payment{
+    height: 95%;
+    width: 95%;
+    background: #f44336;
+    border-radius: 11px;
+    color: #fff;
+    margin: auto;
+    margin-top: 8px;
+    line-height: 22px;
+}
+.conteact_oem,.product_oem,.contract_weld,.product_weld{
+    background: #03A9F4;
+    height: 95%;
+    width: 95%;
+    line-height: 24px;
+    margin-top: 8px;
+    border-radius: 11px;
+    color: #fff;
+}
+
+
+/*OEM合同下的详细产品信息布局开始*/
+.oem_contract_all_praduct,.weld_contract_all_praduct{
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    background-color: #edf0f5;
+    z-index: 100;
+    margin: auto;
+    display: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #716c6c;
+    margin-left: 10%;
+}
+.contract_tital{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: #2196F3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px 3px 0 0;
+    padding-left: 50px;
+}
+.oem_product{
+    width: 95%;
+    height: 70%;
+    background: #fff;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px #e4e4e4;
+    overflow: auto;
+}
+.cental_pro{
+    width: 30px;
+    height: 30px;
+    line-height: 29px;
+    background: #fff;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 100%;
+    margin-left: 40px;
+    color: #999;
+    box-shadow: 0 0 10px #716c6c;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+}
+.cental_oem{
+    float: right;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 100%;
+    margin-left: 40px;
+    color: #999;
+    box-shadow: 0 0 10px #716c6c;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.oem_detail,.weld_detail{
+    height:80%;
+    padding: 0;
+    overflow: auto;
+}
+.oem_detail_info{
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    color:  #03a9f4;
+}
+.oem_detail_info:nth-child(2n){
+    background: #f5f5f5;
+}
+.oem_detail_info:hover{
+    background: #eaeaea;
+}
+/*弹出产品详情*/
+.orders_details_oem,.orders_details_weld{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #edf0f5;
+    z-index: 100;
+    margin: auto;
+    display: none;
+    /* border-radius: 6px; */
+    box-shadow: 0 0 10px #716c6c;
+    /* margin-left: 3%; */
+}
+.products_menu{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #139cda;
+    font-size: 16px;
+    color: #fff;
+}
+.oem_tro_product{
+    margin-left: 60px;
+    margin-top: 8px;
+    float: left;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.product_datials{
+    margin-top: 20px;
+}
+.oem_datials{
+    width: 98%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.pcb_datials{
+    height: 130px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.oem_broduct_datials{
+    height: 130px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.pro_da{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.whpro{
+    width: 3px;
+    height: 30px;
+    background-color: #2196F3;
+    float: left;
+    margin-right: 15px;
+}
+.whpro_name{
+    line-height: 30px;
+}
+.table-height{
+    width: 100%;
+}
+.oem_profile{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: #03A9F4;
+    color: #fff;
+    line-height: 40px;
+    padding: 0;
+}
+.pcba_datials{
+    float: left;
+    width: 98%;
+    height: 130px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 22px;
+}
+.pcba_text{
+    width: 30%;
+    height: 130px;
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+.pcba_bom{
+    background-color: #fff;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    margin-left: 5px;
+    width: 100%;
+}
+.product_list{
+    margin-top: 10px;
+    text-align: center;
+}
+.bom_list_oem,.bom_list_weld{
+    text-align: center;
+    padding: 2px; 
+    height: 35px;
+    line-height: 35px;
+}
+.bom_list_oem:nth-child(2n),.bom_list_weld:nth-child(2n){
+    background: #f5f5f5;
+}
+.bom_list_oem:hover,.bom_list_weld:hover{
+     background: #eaeaea;
+}
+.product_bom,.product_oem_bom{
+    height: 315px;
+    overflow: auto;
+    padding: 1px; 
+    background: #fff;
+}
+/*OEM合同下的详细产品信息布局结束*/
+
+/*弹出二级覆盖层*/
+.overlay_tow,.overlay_tow_one{
+    background: #000;
+    filter: alpha(opacity=70); /* IE的透明度 */
+    opacity: 1;  /* 透明度 */
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100; /* 此处的图层要大于页面 */
+    display:none;
+    position:fixed; 
+}
+
+/*选择支付方式*/
+.method,.method_weld{
+    width: 30%;
+    height: 270px;
+    background: red;
+    display: block;
+    position: absolute;
+    background-color: #edf0f5;
+    z-index: 9999;
+    margin: auto;
+    display: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #716c6c;
+    margin-left: 25%;
+}
+.method_tital{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #2196f3;
+    border-radius: 3px 3px 0 0;
+    padding-left: 30px;
+    font-size: 1.2em;
+    color: #fff;
+}
+.method_one{
+    width: 95%;
+    margin: auto;
+    height: 165px;
+    margin-top: 15px;
+}
+.method_portion{
+    width: 98%;
+    height: 70px;
+    border: 1px solid #eee;
+    background: #fff;
+    text-align: center;
+}
+.method_two{
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+}
+.three{
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+.method_three{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+.now,.after,.now_weld,.after_weld{
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    background: #2196F3;
+    color: #fff;
+    margin-left: 15px;
+    border-radius: 15px;
+    float: left;
+}
+.up_btn,.cancal_btn{
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background: #2196F3;
+    color: #fff;
+    margin-left: 30px;
+    border-radius: 15px;
+    float: left;
+}
+.page-data{
+    height: 98%;
+}
+.up_img{
+    width: 90%;
+    margin: auto;
+    height: 225px;
+    border: 1px solid #dcd5d5;
+}
+.page-list { 
+    text-align:right; 
+    moz-user-select: -moz-none; 
+    clear:both;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    overflow: auto;
+}
+.page-list ul { 
+    display: inline-block;
+    
+}
+.page-list::-webkit-scrollbar  
+{  
+    width: 5px;  
+    height: 5px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+.page-list::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
+    border-radius: 10px;  
+    background-color: #F5F5F5;  
+}

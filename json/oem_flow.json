@@ -1,0 +1,11 @@
+{
+	 "data":{
+        "oem":[
+            {"num":"1","title":"添加产品"},
+            {"num":"2","title":"BOM审核"},
+            {"num":"3","title":"选择BOM采购方"},
+            {"num":"4","title":"下单"}
+        ],
+        "state":200
+    }
+}

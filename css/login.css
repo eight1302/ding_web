@@ -1,0 +1,156 @@
+@charset "utf-8";
+body{
+	background: url(../img/login.jpg) no-repeat center center fixed;
+	margin: 0;
+	padding: 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+img{
+	margin: 0 auto;
+}
+.chome_down{
+	width: 140px;
+    height: 40px;
+    background: #25c9de;
+    float: right;
+    text-align: center;
+    margin-right: 40px;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.logo{
+	margin: 40px;
+	width: 95%;
+	height: 52px;
+}
+.table{
+	width: 729px;
+	height: 50%;
+	margin: 0 auto;
+	margin-top: 10%;
+    margin-bottom: 5%;
+}
+.table_describe{
+	width: 530px;
+	height: 118px;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+.table_date{
+	margin: 0 auto;
+	width: 620px;
+}
+.input-group{
+	display: block;
+	width: 206px;
+	height: 40px;
+}
+.group-pass{
+	margin-left: 220px;
+	margin-top: -40px;
+}
+.form-control{
+	margin: 0;
+	padding: 0;
+	width: 220px;
+	height: 40px;
+}
+.name{
+	width: 230px;
+	height: 40px;
+	margin-right: 20px;
+}
+.btn1{
+	margin-left: 440px;
+	margin-top: -40px;
+	width: 90px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background: #ffc107;
+}
+.regin{
+	width: 600px;
+	height: 0 auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.reg{
+	margin-top: 22px;
+	width: 150px;
+	height: 0 auto;
+	float: left;
+}
+.reg_1{
+	width: 130px;
+	font-size: 14px;
+	color: #fff;
+	margin-right: 5px;
+}
+.reg_2{
+	width: 0;
+    height: 0;
+    margin-left: 130px;
+    margin-top: -15px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid white;
+    line-height: 10px;
+}
+a{
+	text-decoration: none;
+}
+.reg_1:hover{
+	color: #ffc107;
+}
+.checkbox{
+	width: 15px;
+	height: 15px;
+	background-color: #ffc107;
+}
+.keep{
+	margin: 0;
+	padding: 0; 
+	width: 100px;
+	float: right;
+	margin-top: 22px;
+	height: 20px;
+	margin-right: 160px;
+}
+.checkbox{
+	width: 15px;
+	height: 15px;
+}
+.checkbox_1{
+	width: 20px;
+	float: left;
+}
+.checkbox_2{
+	width: 80px;
+	float: right;
+}
+.describe{
+	margin-top: 206px;
+	width: 200px;
+	height: 0 auto;
+	margin: 0 auto;
+}
+p{
+	font-size: 14px;
+	color: #fff;
+}

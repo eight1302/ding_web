@@ -1,0 +1,53 @@
+{
+    "data":{
+    	"head_img":"../../img/head.jpg",
+    	"basic_numbering":"CY_YH_0012",
+        "basic_ompany" : "北京创元成业科技有限公司",
+		"basic_phone" : "18435154572",
+		"basic_qq" : "45926601",
+		"basic_mail" : "45926601@163.com",
+		"basic_fax" : "北京创元成业科技邮箱公司",
+		"vat_company" : "北京创元成业科技有限公司",
+		"vat_ein" : "CY256610482017ZY",
+		"vat_address" : "北京牛栏山创意园区",
+		"vat_opening_bank" : "北京银行",
+		"vat_phone" : "15847418365",
+		"vat_account" : "621209668341056",
+		"billing_person" : "闫涛",
+		"billing_phone" : "18435154572",
+		"billing_address" : "北京创元成业科技邮箱公司",
+        "user": "落日海景",
+		"person_address":[
+             {
+            "id" : "1",
+            "name" : "张晓敏",
+            "phone" : "18435154572",
+            "encapsulation" : "北京市 北京市 昌平区 天通中苑 北京创元成业电子科技有限公司 牛栏山创业园 3号楼 4层 401室",
+            "st" : "0"
+            },
+           
+            {
+            "id" : "3",
+            "name" : "刘博",
+            "phone" : "18435154572",
+            "encapsulation" : "北京市 北京市 昌平区 天通中苑 北京创元成业电子科技有限公司 牛栏山创业园 3号楼 4层 401室",
+            "st" : "0"
+            },
+            {
+            "id" : "4",
+            "name" : "周汕",
+            "phone" : "15128801098",
+            "encapsulation" : "北京市昌平区",
+             "st" : "1"
+            },
+            {
+            "id" : "5",
+            "name" : "斌斌",
+            "phone" : "18435154572",
+            "encapsulation" : "北京市 北京市 昌平区 天通中苑 北京创元成业电子科技有限公司 牛栏山创业园 3号楼 4层 401室",
+             "st" : "0"
+            }
+      ],
+        "state":200
+    }
+}

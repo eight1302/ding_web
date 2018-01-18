@@ -1,0 +1,32 @@
+
+{
+    "orderlist":{
+        "list":[
+             {
+            "id":"1",
+            "product_id": "SR20170811321302",
+            "product_time": "2017.11.13 11:36:52",
+            "product_name": "PCB",
+            "product_number":"V2.5.1",
+            "product_type":"焊接",
+            "product_details":"查看详情"
+            
+            },
+            {
+            "id":"2",
+            "product_id": "SR20170811321302",
+            "product_time": "2017.8.15",
+            "product_name": "PCB",
+            "product_number":"V2.5.1",
+            "product_type":"oem",
+            "product_details":"查看详情"
+            
+            }         
+        ],
+        "content":20, 
+        "state":200
+    },
+    "delect":{
+      "state":200
+    }
+}

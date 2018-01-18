@@ -1,0 +1,338 @@
+.oem_product,.weld_product{
+	width: 98%;
+    height: 92%;
+    margin: auto;
+    background: #fff;
+    margin-top: 1%;
+    margin-left: 18px;
+}
+.selcet_des{
+	width: 100%;
+	height: 60px;
+}
+.repair_info{
+    line-height: 60px;
+    width: 100px;
+    font-size: 15px;
+    margin-left: 25px;
+    text-align: center;
+    padding: 0;
+}
+.repair_process{
+    width: 70%;
+    height: 60px;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+}
+.repair_des{
+	margin-top: 5px;
+	padding: 0;
+}
+.timeline_red {
+    position: absolute;
+    border-bottom: 1px solid #03a9f4;
+    margin-top: 17px;
+    width: 93%;
+}
+.one{
+    margin-top: 10px;
+}
+.tow {
+    width: 20%;
+    float: left;
+    font-size: 10px;
+    color: #2196f3;
+    margin: auto;
+    text-align: center;
+}
+.round_red {
+    width: 15px;
+    height: 15px;
+    background: #2196f3;
+    font-size: 10px;
+    color: #fff;
+    line-height: 16px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 100%;
+    margin: inherit;
+
+}
+.red_detail{
+	display: block;
+	margin-top: 10px;
+	padding: 0;
+	overflow: hidden;
+	min-width: 595px;
+}
+.repair_find{
+	margin: auto;
+    padding: 0;
+    margin-top: 20px;
+    float: right;
+}
+.repair_product_des{
+	height: 92%;
+	padding: 0;
+}
+.des_product{
+	padding: 0;
+	margin: 0;
+    height: 35px;
+    line-height: 35px;
+    background: #4193d2;
+    color: #fff;
+    text-align: center;
+}
+.contract_no,.contract_data,.pooduct_no,.pooduct_name,.product_type,.product_quantity,.contract_state{
+	width: 12%;
+	float: left;
+}
+.logistics,.selcet_pro{
+	width: 8%;
+	float: left;
+}
+.log_info,.selcet_detail{
+	width: 90%;
+    float: left;
+    border-radius: 15px;
+    background: #176cb7;
+    height: 27px;
+    margin-top: 5px;
+    line-height: 27px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 0.5%;
+}
+.page-data{
+    height: 98%;
+}
+.oem_contracts{
+	width: 100%;
+	height: 88%;
+	overflow: auto;
+	text-align: center;
+}
+.contract_product{
+	padding: 0;
+	margin: 0;
+    height: 40px;
+    line-height: 40px;
+    color: #4193d2;
+    text-align: center;
+    font-size: 13px;
+}
+.contract_product:nth-child(2n){
+	background: #f5f5f5;
+}
+.contract_product:hover{
+    background: #eaeaea;
+}
+.selcet_btn{
+    width: 7%;
+    float: left;
+    border-radius: 15px;
+    background: #176cb7;
+    height: 27px;
+    margin-top: 5px;
+    line-height: 27px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 0.5%;
+}
+.page{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+}
+
+/*选择返修产品*/
+.overlay_product{
+    top: 0;
+    left: 0;
+    width: 96%;
+    height: 90%;
+    margin-top: 2%;
+    margin-left: 2%;
+    background: #f7f4f4;
+    display: none;
+    z-index: 100;
+    position: fixed;
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px #decdcd;
+}
+.repair_title{
+    height: 60px;
+    line-height: 60px;
+    background: #2196F3;
+    border-radius: 6px 6px 0 0;
+}
+.cental_pro,.cental_pro_one{
+    width: 30px;
+    height: 30px;
+    line-height: 29px;
+    background: #fff;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 100%;
+    margin-left: 40px;
+    color: #999;
+    box-shadow: 0 0 10px #716c6c;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+}
+.product_question{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 70%;
+    height: 70%;
+    min-width: 300px;
+    min-height: 250px;
+    margin-left: 15%;
+    margin-top: 7%;
+    background: #fff;
+    display: none;
+    z-index: 200;
+    border-radius: 6px;
+}
+.question{
+    width: 98%;
+    height: 78%;
+    margin-left: 1%;
+    margin-top: 1%;
+    overflow: auto;
+}
+.question_des,.question_img{
+    width: 50%;
+    height: 100%;
+    border: 1px solid #e6e3e3;
+}
+.des_ques,.des_img{
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    background: #2196f3;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.textare{
+    margin-top: 20px;
+    width: 100%;
+    height: 80%;
+    resize: none;
+    border: 1px solid #eee;
+}
+.imgs{
+    margin-top: 20px;
+    width: 100%;
+    height: 80%;
+    resize: none;
+    border: 1px solid #eee;
+}
+.product_repair_btn{
+     float: left;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    background: #139cda;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-left: 40px;
+    color: #fff;
+    box-shadow: 0 0 5px #716c6c;
+    cursor: pointer;
+    margin-top: 1%;
+}
+.con_on::-webkit-input-placeholder{
+    color: #666;
+    font-size: 10px;
+}
+
+/*物流信息布局*/
+.logis_product{
+	top: 0;
+    left: 0;
+    position: fixed;
+    width: 30%;
+    height: 40%;
+    min-width: 530px;
+    min-height: 360px;
+    margin-left: 30%;
+    margin-top: 10%;
+    background: #fff;
+    display: none;
+    z-index: 200;
+    border-radius: 6px;
+}
+.oem_repair_btn,.weld_repair_btn{
+	float: left;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    background: #139cda;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-left: 40px;
+    color: #fff;
+    box-shadow: 0 0 5px #716c6c;
+    cursor: pointer;
+    margin-top: 1%;
+}
+.logis_detail{
+	width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    margin-top: 1%;
+    overflow: auto;
+}
+.distribution{
+	margin-top: 7%;
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+	border-radius: 6px;
+	box-shadow: 1px 1px 2px #7ca6b9;
+	border:1px solid #cee0e8;
+}
+.ten{
+	background: #03A9F4;
+    width: 18%;;
+    padding: 0;
+    margin: 0;
+    height: 39px;
+    display: flex;
+    margin-left: -3%;
+    border-radius: 6px 0 0 6px;
+    text-align: center;
+    color: #fff;
+    padding: 0; 
+}
+.nine{
+	text-align: center;
+	width: 85%;
+	float: left;
+	
+}
+.eight{
+	float: left;
+    width: 84%;
+    height: 39px;
+    line-height: 39px;
+    padding: 0;
+}
+.sex{
+	width: 90%;
+    line-height: 39px;
+    height: 39px;
+    border-radius: 0 6px 6px 0;
+    border: none;
+}

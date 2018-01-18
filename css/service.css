@@ -1,0 +1,1102 @@
+@charset "utf-8";
+/*自助下单页面设计*/
+.service_mian{
+	width: 98%;
+	height: 93%;
+	margin: auto;
+	margin-top: 10px;
+	background-color: #fff;
+	border: 1px solid #d7e0f1;
+	overflow: hidden;
+}
+.data{
+	width: 0 auto;
+	height: 100%;
+	line-height: 30px;
+}
+.products_time{
+	margin-top: 5px; 
+	float: right;
+}
+.product_list{
+	text-align: center;
+}
+.dates{
+	color: #f12314;
+	font-size: 18px;
+}
+.tips{
+	width: 35%;
+    float: left;
+    margin-left: 5%;
+    height: 53px;
+    margin-top: 5px;
+}
+.tow {
+    width: 25%;
+    float: left;
+    font-size: 10px;
+    color: #2196f3;
+    margin: auto;
+    text-align: center;
+    margin-top: -4px;
+}
+.pcb_downlode{
+    height: 30px;
+    line-height: 30px;
+    background: #03A9F4;
+    border-radius: 16px;
+    color: #fff;
+    text-align: center;
+    margin-right: 12.5%;
+}
+.coordinate_downlode{
+    height: 30px;
+    line-height: 30px;
+    background: #03A9F4;
+    border-radius: 16px;
+    color: #fff;
+    float: right;
+    text-align: center;
+}
+.process_downlode{
+    height: 30px;
+    line-height: 30px;
+    background: #03A9F4;
+    border-radius: 16px;
+    color: #fff;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 12.5%;
+}
+.bom_downlode{
+    height: 30px;
+    line-height: 30px;
+    background: #03A9F4;
+    border-radius: 16px;
+    color: #fff;
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+}
+.round_red {
+    width: 15px;
+    height: 15px;
+    background: #2196f3;
+    font-size: 10px;
+    color: #fff;
+    line-height: 16px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 100%;
+    margin: inherit;
+}
+.one {
+    margin-top: 10px;
+}
+.timeline_red {
+    position: absolute;
+    border-bottom: 1px solid #03a9f4;
+    margin-top: 17px;
+    width: 93%;
+}
+.data1,.data2{
+	width: 100px;
+	height: 25px;
+	border-radius: 10px;
+	border:none;
+	background-color: #eee;
+}
+.product_btn{
+	width: 85%;
+    height: 25px;
+    margin-top: 7px;
+    background: #1791c7;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 15px;
+    line-height: 25px;
+}
+.product_all,.delivery_all{
+	width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #1aa4d0;
+    font-size: 1em;
+}
+.product_all:nth-child(2n){
+	background: #f7f1f1;
+}
+.product_all:hover{
+	background-color: #dae8c8;
+}
+.delivery_all:nth-child(2n){
+	background: #f7f1f1;
+}
+.delivery_all:hover{
+	background-color: #dae8c8;
+}
+.product_menu{
+	height: 40px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 1em;
+	margin-bottom: 10px; 
+	float: left;
+}
+.product_weld{
+	width: 145px;
+	height: 30px;
+	background-color: #03a9f4;
+	color: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+	float: left;
+	margin-right: 10px;
+
+}
+.product_oem{
+	width: 145px;
+	height: 30px;
+	background-color: #03a9f4;
+	color: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+	float: left;
+	margin-right: 10px;
+	
+}
+.product_menu_oem_add,.product_menu_weld_add{
+	width: 80px;
+	height: 30px;
+	background-color: #9c27b0;
+	color: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+	float: left;
+	margin-right: 10px;
+}
+.product_oem_add,.product_oem_updata{
+	top: 0;
+	left: 0;
+	display: none;
+	width: 95%;
+	margin-left: 2%;
+	height: 90%;
+	margin-top: 2%;
+	background: #edf0f5;
+	position: fixed;
+	z-index: 200;
+	border-radius: 6px 6px 0 0;
+}
+.product_menu_oem_order,.product_menu_weld_order{
+    width: 60px;
+    color: #fff;
+    background-color: #673ab7;
+    border-radius: 20px;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+}
+.product_menu_oem_update,.product_menu_weld_update{
+    width: 60px;
+    color: #fff;
+    background-color: #8BC34A;
+    border-radius: 20px;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+}
+.product_menu_oem_dele,.product_menu_weld_dele{
+    width: 60px;
+    color: #fff;
+    background-color: #f44336;
+    border-radius: 20px;
+    cursor: pointer;
+    float: left;
+}
+.product_table{
+	width: 100%;
+	height: 92%;
+}
+.page-data{
+	height: 98%;
+}
+.product_details_btn{
+	width: 40px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #000;
+}
+.table-height{
+	width: 100%;
+}
+.product_tr{
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	background-color: #03A9F4;
+	color: #fff;
+	overflow: hidden;
+	line-height: 40px;
+}
+.product_tr_one{
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	background-color: #03A9F4;
+	color: #fff;
+	line-height: 40px;
+	overflow: hidden;
+}
+.product_tr_oem,.product_tr_weld{
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	background-color: #03A9F4;
+	color: #fff;
+	overflow: hidden;
+	line-height: 40px;
+}
+.search_btn,.oem_search_btn{
+	width: 25px;
+	height: 25px;
+	border:none;
+	margin-left: 280px;
+    margin-top: -32px;
+    cursor: pointer;
+}
+.icon-search{
+	font-size: 20px;
+    color: #1a72b9;
+    margin-top: 2px;
+}
+.product_details_oem,.product_details_weld{
+    background-color: #1791c7;
+    height: 25px;
+    margin-top: 7px;
+    line-height: 25px;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.product_list{
+	text-align: center;
+}
+
+/*分页跳转开始*/
+.page-list { 
+	text-align:right; 
+	moz-user-select: -moz-none; 
+	clear:both;
+	-moz-user-select: none;
+	-o-user-select:none;
+	-khtml-user-select:none;
+	-webkit-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	height: 90%;
+    overflow: auto;
+}
+.page-list ul { 
+	display: inline-block;
+    
+}
+.page-list::-webkit-scrollbar  
+{  
+    width: 5px;  
+    height: 5px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+.page-list::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
+    border-radius: 10px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滑块 内阴影+圆角*/  
+.page-list::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #2b7eb7;  
+}  
+.page-list input {
+	border:1px solid #d5dade; 
+	text-align:center; 
+	width:62px; 
+	box-shadow:none;
+}
+.page-list li{ 
+	margin: 0;
+	min-width:28px; 
+	height:36px; 
+	line-height:36px; 
+	background:#fff; 
+	display:inline-block; 
+	font-size:12px; 
+	color:#555; 
+	text-align:center; 
+	cursor:pointer;
+	margin-bottom: -10px;
+	
+}
+.page-go-btn{ 
+	margin: 0;
+	min-width:28px; 
+	height:36px; 
+	line-height:36px; 
+	background:#fff; 
+	display:inline-block; 
+	font-size:14px; 
+	color:#2196f3; 
+	text-align:center; 
+	cursor:pointer;
+	margin-bottom: -10px;
+	
+}
+.page-go-btn:hover { 
+	background:#f7f7f7; 
+	color:#fff;
+}
+.page-left{
+	float: right;
+	height: 8%;
+	margin-right: 80px;
+}
+.page-go-btn{
+	background-color: #eee;
+}
+.page-list li:hover,.page-list li.active{ 
+	background:#eee; 
+	color:#000;
+}
+/*分页跳转结束*/
+
+/*添加产品信息开始*/
+.add_products,.orders_details,.oem_details,.orders,.orders_weld_details{
+    top: 0;
+    left: 0;
+    z-index: 200;
+    display: block;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    background-color: #edf0f5;
+    margin: auto;
+    display: none;
+    position: fixed;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    border-radius: 6px;
+}
+.weld_details{
+    top: 0;
+    left: 0;
+    z-index: 200;
+    display: block;
+    position: absolute;
+    width: 95%;
+    height: 75%;
+    background-color: #edf0f5;
+    margin: auto;
+    display: none;
+    position: fixed;
+    margin-left: 2%;
+    margin-top: 3.5%;
+    border-radius: 6px;
+}
+.file_uplod{
+	top: 0;
+    left: 0;
+    z-index: 200;
+    display: block;
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background-color: #edf0f5;
+    margin: auto;
+    display: none;
+    position: fixed;
+    margin-left: 13%;
+    margin-top: 6.5%;
+    border-radius: 6px;
+}
+.products_menu{
+	width: 100%;
+	height: 75px;
+    line-height: 75px;
+    background-color: #139cda;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 6px 6px 0 0;
+}
+.oem_product{
+	margin-left: 60px;
+    margin-top: 20px;
+    float: left;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.oem_menu,.weld_menu{
+	text-align: center;
+    width: 20%;
+    float: left;
+    margin-top: 15px;
+    min-width: 300px;
+}
+.weld{
+	height: 98%;
+    width: 100%;
+}
+.weld_product{
+    margin-top: 20px;
+    float: left;
+    line-height: 40px;
+    margin-left: 40px;
+	margin-bottom: 5px;;
+}
+.detail{
+	width: 100%;
+	height: 78%;
+	border-radius: 0 0 6px 6px;
+}
+.oem{
+	height: 98%;
+    width: 100%;
+}
+.page_list_oem{
+	height: 88%;
+    overflow: auto;
+}
+.page_list_weld{
+	height: 88%;
+    overflow: auto;
+}
+.shop{
+	margin-top: 30px;
+	width: 100%;
+	height: 220px;
+}
+.shopdetal{
+	margin-top: 15px;
+    width: 100%;
+    height: 350px;
+}
+.shop_1{
+	float: left;
+	width: 49%;
+	height: 100%;
+	background-color: #fff;
+	border: 1px solid #c7dde6; 
+	margin-right: 1%;
+}
+.whpro{
+	width: 3px;
+    height: 30px;
+    background-color: #2196F3;
+    float: left;
+    margin-right: 15px;
+}
+.shop1_name{
+	width: 80%;
+	margin: auto;
+}
+label{
+	margin-top: 15px;
+	margin-bottom: 15px; 
+}
+.input_name{
+    margin: auto;
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+.whpro_name{
+	line-height: 30px;
+}
+.shop_1_type{
+	margin-top: 40px;
+	width: 120px;
+	margin: auto;
+}
+.shop_2{
+    float: left;
+    width: 48%;
+    height: 45%;
+    background-color: #fff;
+    border: 1px solid #c7dde6;
+    margin-right: 1%;;
+}
+.pcb_upload{
+	margin: auto;
+    margin-top: 20px;
+    width: 70%;
+    height: 70%;
+    text-align: center;
+}
+.shop_3{
+    float: left;
+    width: 48%;
+    height: 47%;
+    background-color: #fff;
+    border: 1px solid #c7dde6;
+    margin-right: 1%;
+    margin-top: 1.5%;
+}
+.shop_4{
+  	float: left;
+    width: 49%;
+    height: 47%;
+    background-color: #fff;
+    border: 1px solid #c7dde6;
+    margin-right: 1%;
+    margin-top: 1.5%;
+}
+.shopdetal_1{
+	float: left;
+	width: 49%;
+	height: 100%;
+	background-color: #fff;
+	border: 1px solid #c7dde6;
+	margin-right: 1%; 	
+}
+.pcbdetails{
+	width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+.shopdetal_2{
+    float: left;
+    width: 49%;
+    height: 45%;
+    background-color: #fff;
+    border: 1px solid #c7dde6;
+    margin-right: 1%;	
+}
+.shopdetal_3{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background-color: #fff;
+	border: 1px solid #c7dde6;	
+}
+.shopdetal_4{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background-color: #fff;
+	border: 1px solid #c7dde6;
+}
+.btn_pr{
+	height: 25px;
+}
+.add_oem_pro,.add_weld_product,.sales_review,.add_weld_product{
+	float: left;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    background: #139cda;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-left: 40px;
+    color: #fff;
+    box-shadow: 0 0 5px #716c6c;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.add_pcb,.add_bom,.add_coordinate,.add_process{
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    background: #139cda;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-left: 40px;
+    color: #fff;
+    box-shadow: 0 0 5px #716c6c;
+    cursor: pointer;
+    margin-top: 10px;
+    margin: auto;
+}
+.complete{
+    width: 86px;
+    height: 30px;
+    line-height: 30px;
+    background: #139cda;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-left: 4px;
+    color: #fff;
+    box-shadow: 0 0 5px #716c6c;
+    cursor: pointer;
+    margin-top: 0px;
+    font-size: 15px;
+}
+.cental_pro{
+    width: 30px;
+    height: 30px;
+    line-height: 29px;
+    background: #fff;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 100%;
+    margin-left: 40px;
+    color: #999;
+    box-shadow: 0 0 10px #716c6c;
+    cursor: pointer;
+    float: right;
+    margin-top: 16px;
+}
+/*添加产品信息结束*/
+
+/*查看订单详情开始*/
+.product_datials{
+	margin-top: 20px;
+	height: 85%;
+}
+.oem_datials{
+	width: 98%;
+	margin: auto;
+	margin-bottom: 15px;
+	height: 95%;
+}
+.oem_dat{
+	height: 19%;
+	margin: auto;
+}
+.page-data1{
+	height: 20px;
+}
+.pro_da{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.oem_broduct_datials,.pcb_datials,.oem_download{
+	height: 130px;
+	background-color: #fff;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	margin-left: 20px;
+	padding: 0;
+}
+.pcba_datials{
+	float: left;
+	width: 61%;
+	height: 130px;
+	background-color: #fff;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	margin-right: 31px;
+}
+.pcba_text{
+	float: right;
+	width: 30%;
+	height: 130px;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+.pcba_bom{
+	height: 98%;
+	background-color: #fff;
+	margin-bottom: 15px;
+	margin-right: 25px;
+	margin-left: 5px;
+	display: block;
+}
+.oem_pcb{
+	margin-bottom: 15px;
+}
+.oem_bom{
+	margin-bottom: 15px;
+}
+.weld_pcba_datials{
+	height: 130px;
+	background-color: #fff;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	margin-right: 22px;
+}
+.bom_list_oem{
+	width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #1aa4d0;
+}
+.bom_list_oem:nth-child(2n){
+	background: #f7f1f1;
+}
+.bom_list_oem:hover{
+	background-color: #dae8c8;
+}
+.product_bom{
+	overflow: auto;
+	height: 100%;
+	text-align: center;
+	display: block;
+}
+::-webkit-scrollbar  
+{  
+    width: 5px;  
+    height: 5px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
+    border-radius: 10px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #2b7eb7;  
+}    
+
+/*查看订单详情结束*/
+
+/*下单页面布局开始*/
+.products_menu1{
+	width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #139cda;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 6px 6px 0 0 ;
+}
+.product_order_menu{
+	margin-left: 60px;
+    /* margin-top: 10px; */
+    float: left;
+    line-height: 60px;
+}
+.shop_orders{
+	left: 0;
+    top: 0;
+    display: block;
+    position: fixed;
+    width: 95%;
+    height: 95%;
+    background-color: #edf0f5;
+    z-index: 200;
+    margin: auto;
+    display: none;
+    box-shadow: 0 0 10px #716c6c;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    border-radius: 6px;
+}
+.product_order{
+	width: 100%;
+	margin: auto;
+	margin-top: 20px;
+	overflow: auto;
+	margin-bottom: 8px;
+}
+.depart_info{
+	margin-bottom: 10px;
+	height: 25px;
+	line-height: 25px;
+}
+.order_shop{
+	width: 95%;
+	margin: auto;
+	overflow-x: hidden;
+	height: auto;
+}
+.address1{
+	height: 175px;
+}
+.address{
+	height: auto;
+	margin-bottom: 10px;
+}
+.addresshide{
+	float: right;
+	height: auto;
+	z-index: 999;
+	display: none;
+	height: 150px;
+	overflow: auto;
+}
+.charge{
+	margin-top: 15px;
+}
+.adres{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 2px dashed #c1473e;
+	height: 90px; 
+	border-radius: 5px;
+}
+.add_adres,.add_delivery{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    background: #139cda;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.insert{
+	height: 320px;
+	overflow: auto;
+}
+.insert_add{
+	height: 20px;
+	background-color: red;
+}
+
+/*下单页面布局结束*/
+/*快递布局开始*/
+.overlay_tow{
+	background: #000;
+    filter: alpha(opacity=70); /* IE的透明度 */
+    opacity: 0.7;  /* 透明度 */
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100; /* 此处的图层要大于页面 */
+    display:none;
+    position:fixed; 
+}
+.delivery{
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background-color: #edf0f5;
+    z-index: 100;
+    margin: auto;
+    display: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #716c6c;
+    top: 10%;
+    left: 30%;
+}
+.insert_delivery,.insert_address,.bom_updata{
+	float: left;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    background: #139cda;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-left: 40px;
+    color: #fff;
+    box-shadow: 0 0 10px #716c6c;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.text::-webkit-input-placeholder{
+	color: #666;
+}
+.addres{
+    display: block;
+    position: absolute;
+    width: 93%;
+    height: 80%;
+    background-color: #edf0f5;
+    z-index: 100;
+    margin: auto;
+    display: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #716c6c;
+    left: 5%;
+    top: 5%;
+}
+.add_button{
+	margin-left: 20px;
+	float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 100%;
+    background: #139cda;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 10px #716c6c;
+    cursor: pointer;
+    margin-right: 15px;
+}
+/*快递布局结束*/
+/*地址信息布局开始*/
+.user_address{
+	margin: 15px 0;
+	height: 310px;
+	background: #fff;
+	overflow: hidden;
+}
+.adress_information{
+	height: 230px;
+	background: #fff;
+	margin-bottom: 10px;
+	display: none;
+}
+.appent_address{
+	margin-left: 20px;
+	float: left;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    background: #139cda;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 10px #716c6c;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.order_list{
+	max-height: 570px;
+	overflow: auto;
+}
+/*地址信息布局结束*/
+/*是否含税*/
+.order_tax{
+	float: left;
+	margin-left: 25px;
+	width: 80px;
+	margin-right: 20px;
+	height: 25px;
+}
+
+.uplod_pcb,.uplod_coordinate,.uplod_process,.uplod_bom,.uplod_weld_pcb,.uplod_weld_bom,.uplod_weld_coordinate,.uplod_weld_process{
+	margin-top: 10%;
+}
+
+
+/*bom购买方*/
+.bom_div{
+    width: 98%;
+    height: 96%;
+    background: #efefef;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 200;
+    margin-left: 1%;
+    margin-top: 1%;
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px #e4e2e2;
+    display: none;
+}
+.om_procurement_info{
+    width: 98%;
+    height: 75%;
+    background: #fff;
+    margin: auto;
+    margin-top: 2%;
+}
+.bom_tip{
+	height: 40px;
+    line-height: 40px;
+    color: #e00808;
+    text-align: center;
+    font-size: 20px;
+}
+.product_tr_tow{
+	text-align: center;
+    height: 95%;
+    overflow: auto;
+}
+.product_tr_hree{
+    height: 40px;
+    line-height: 40px;
+}
+.product_tr_hree:nth-child(2n){
+	background: #f7f1f1;
+}
+.product_tr_hree:hover{
+	background-color: #dae8c8;
+}
+.progress_pcb{
+    background: #000;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 47%;
+    height: 45%;
+    z-index: 100;
+    margin-left: 1%;
+    display: none;
+}
+.progress_coordinate{
+    background: #000;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 47%;
+    height: 47%;
+    z-index: 100;
+    margin-left: 1%;
+    margin-top: 18.8%;
+    display: none;
+}
+.progress_process{
+    background: #000;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 48%;
+    height: 47%;
+    z-index: 100;
+    margin-left: 49%;
+    margin-top: 18.8%;
+    display: none;
+}
+.progress_bom{
+    background: #000;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 48%;
+    height: 45%;
+    z-index: 100;
+    margin-left: 49%;
+    display: none;
+}
+.pro_des{
+	margin-top: 16%;
+    text-align: center;
+}
+.prog,.prog_bom,.prog_process,.prog_coordinate{
+	width: 90%;
+    margin-left: 5%;
+    color: #fff;
+}

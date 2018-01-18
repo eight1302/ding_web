@@ -1,0 +1,20 @@
+{
+
+		"id":"2",
+ 		"weld_product_name" : "焊接产品",
+            "weld_product_type" : "20170805az",
+            "weld_pcba_process" : "无铅焊接",
+            "weld_pcba_smt_type" : "05",
+            "weld_pcba_smt_joints" : "36",
+            "weld_pcba_dip_type" : "12",
+            "weld_pcba_dip_joints" : "95",
+            "weld_pcba_stencil" : "创元提供",
+            "weld_pcba_stencil_number" : "78-51",
+            "weld_test_time" : "12",
+            "weld_assembly_time" : "25",
+            "weld_prevent_cm2" : "18",
+            "weld_remark" : "很好",
+            "product_class_type" : "焊接",			
+	
+	"state":200
+}

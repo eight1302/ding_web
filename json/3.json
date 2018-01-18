@@ -1,0 +1,32 @@
+{
+    "data":{
+        "part":[
+            {"order":"01","order_contract":"CY17-001","order_time":"2017.5.1","order_type":"小批量","order_payment":"已付款","order_status":"销售审核中","order_amount":"1000.00"},
+            {"order":"02","order_contract":"CY17-002","order_time":"2017.5.1","order_type":"小批量","order_payment":"未付款","order_status":"等待客户确认","order_amount":"2000.00"},
+            {"order":"03","order_contract":"CY17-003","order_time":"2017.5.1","order_type":"小批量","order_payment":"已付款","order_status":"上传支付凭证","order_amount":"3000.00"},
+            {"order":"04","order_contract":"CY17-004","order_time":"2017.5.1","order_type":"小批量","order_payment":"未付款","order_status":"生产中","order_amount":"50.000.00"},
+            {"order":"05","order_contract":"CY17-005","order_time":"2017.5.1","order_type":"小批量","order_payment":"已付款","order_status":"已送达","order_amount":"60.000.00"},
+            {"order":"06","order_contract":"CY17-006","order_time":"2017.5.1","order_type":"小批量","order_payment":"未付款","order_status":"已送达,上传支付凭证","order_amount":"70.000.00"},
+            {"order":"07","order_contract":"CY17-007","order_time":"2017.5.1","order_type":"小批量","order_payment":"已付款","order_status":"返修中","order_amount":"85.00"},
+            {"order":"08","order_contract":"CY17-008","order_time":"2017.5.1","order_type":"小批量","order_payment":"部分付款","order_status":"部分签收","order_amount":"97.00"},
+            {"order":"09","order_contract":"CY17-009","order_time":"2017.5.1","order_type":"小批量","order_payment":"部分付款","order_status":"销售审核中","order_amount":"994.00"},
+            {"order":"10","order_contract":"CY17-010","order_time":"2017.5.1","order_type":"小批量","order_payment":"未付款","order_status":"等待客户确认","order_amount":"12.000.00"},
+            {"order":"11","order_contract":"CY17-011","order_time":"2017.5.1","order_type":"小批量","order_payment":"未付款","order_status":"上传支付凭证","order_amount":"15.000.00"},
+            {"order":"12","order_contract":"CY17-012","order_time":"2017.5.1","order_type":"小批量","order_payment":"未付款","order_status":"生产中","order_amount":"17.000.00"},
+            {"order":"13","order_contract":"CY17-013","order_time":"2017.5.1","order_type":"小批量","order_payment":"已付款","order_status":"已送达","order_amount":"800.00"},
+            {"order":"14","order_contract":"CY17-014","order_time":"2017.5.1","order_type":"小批量","order_payment":"未付款","order_status":"已送达,上传支付凭证","order_amount":"100.00"},
+            {"order":"15","order_contract":"CY17-015","order_time":"2017.5.1","order_type":"小批量","order_payment":"已付款","order_status":"返修中","order_amount":"300.00"},
+            {"order":"16","order_contract":"CY17-016","order_time":"2017.5.1","order_type":"小批量","order_payment":"已付款","order_status":"部分签收","order_amount":"90.00"},
+            {"order":"17","order_contract":"CY17-017","order_time":"2017.5.1","order_type":"小批量","order_payment":"部分付款","order_status":"生产中","order_amount":"900.000.00"}           
+        ],
+        "state":200
+    },
+    "order":{
+        "chart":{
+                "payorder":{"pay_name":"支付", "pay":"20","nopay_name":"未支付", "nopay":"40"},
+                "weldingorder":{"welding_name":"焊接", "welding":"60","nowelding_name":"非焊接", "nowelding":"120"},
+                "completeorder":{"complete_name":"完成", "complete":"60","nocomplete_name":"未完成", "nocomplete":"120"}
+         },
+        "state":200
+    }
+}

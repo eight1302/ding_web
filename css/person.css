@@ -1,0 +1,433 @@
+@charset "utf-8";
+/*个人中心样式设计*/
+.feature{
+	margin-top: 15px;
+	height: 98%;
+	min-width: 1200px;
+}
+.feature1{
+    height: 95%
+}
+/*个人信息展示以及发票详情展示的布局*/
+.person_detail{
+	margin: 0;
+	padding: 0;
+	height: 20%;
+	min-height: 160px; 
+	min-width: 1070px;
+}
+.basic_information{
+	height: 100%;
+	width: 42%;
+	min-width: 495px;
+	margin: 0;
+	padding: 0;
+	margin-right: 0.7%;
+	border-radius: 3px;
+	border: 1px solid #d7e0f1;
+	background: #fff;
+    overflow: hidden;
+}
+.basic_tital{
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	padding-left: 15px;
+	background: #ec3330;
+	color: #fff;
+	border-radius: 3px 3px 0 0;
+}
+.head_img{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-left: 5%;
+    padding-top: 3%;
+    border-radius: 100%;
+}
+.person_info{
+	width: 80%;
+    height: 100%;
+    float: right;
+    font-size: 12px;
+    min-width: 455px;
+    position: absolute;
+    margin-left: 110px;
+}
+.upload{
+    text-align: center;
+    margin-top: 20px;
+    background: #b457cc;
+    max-width: 100px;
+    margin-left: 15px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 10px;
+    color: #fff;
+}
+.upload_img{
+	padding: 0;
+    width: 15%;
+    height: 100%;
+    float: left;
+    max-width: 100px;
+}
+.basic_detail,.vat_detail,.billing_detail{
+	height: 80%;
+	overflow: hidden;
+	font-size: 12px;
+}
+.vat_detail{
+	width: 90%;
+	margin: auto;
+}
+.one{
+	margin-top: 2%;
+    overflow: hidden;
+    padding: 0;
+    width: 42%;
+    float: left;
+    margin-left: 2%;
+}
+.one1{
+	margin-top: 4%;
+    overflow: hidden;
+    padding: 0;
+    width: 80%;
+    float: left;
+    margin-left: 2%;
+}
+.vat{
+	width: 80px;
+	overflow: hidden;
+	padding: 0;
+}
+.basic{
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+}
+.basic1{
+	width: 36%;
+	max-width: 70px;
+	overflow: hidden;
+}
+.basic2{
+	padding: 0;
+    float: right;
+    width: 63%;
+
+}
+.text_billing{
+	overflow: hidden;
+	border: none;
+}
+.text_billing::-webkit-input-placeholder{
+	color: #666;
+	font-size: 10px;
+}
+.text_vat{
+	min-width: 90%;
+	overflow: hidden;
+	padding: 0;
+	border:none;
+}
+.text_vat::-webkit-input-placeholder{
+	color: #666;
+	font-size: 10px;
+}
+.text_basic{
+	max-width: 90%;
+	overflow: hidden;
+	padding: 0;
+	border:none;
+}
+.text_basic::-webkit-input-placeholder{
+	color: #666;
+	font-size: 10px;
+}
+.billing_detail{
+	width: 75%;
+	margin: auto;
+	height: 80%;
+	background: #fff;
+	overflow: hidden;
+}
+.vat_tital{
+	height: 30px;
+	font-size: 12px;
+	padding-left: 15px;
+	line-height: 30px;
+	background: #2782dd;
+	color: #fff;
+	border-radius: 3px 3px 0 0;
+}
+.basic_btn,.vat_btn,.billing_btn{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	float: right;
+	cursor: pointer;
+}
+.billing_tital{
+	height: 30px;
+	font-size: 12px;
+	padding-left: 15px;
+	line-height: 30px;
+	background: #4fb14e;
+	color: #fff;
+	border-radius: 3px 3px 0 0;
+}
+
+.vat_information{
+    height: 100%;
+    width: 34%;
+    min-width: 400px;
+    margin: 0;
+    padding: 0;
+    margin-right: 0.7%;
+    border-radius: 3px;
+    border: 1px solid #d7e0f1;
+    background: #fff;
+    float: left;
+}
+.billing_information{
+	height: 100%;
+    max-width: 21%;
+    min-width: 245px;
+    margin: 0;
+    padding: 0;
+    margin-right: 0.7%;
+    border-radius: 3px;
+    border: 1px solid #d7e0f1;
+    background: #fff;
+    float: left;
+}
+/*添加的发货地址*/
+.person_address{
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    height: 76%;
+    min-height: 68%;
+    max-width: 98.5%;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #d7e0f1;
+}
+.address_tital{
+	height: 30px;
+	font-size: 12px;
+	padding-left: 15px;
+	line-height: 30px;
+	background: #b457cc;
+	color: #fff;
+	border-radius: 3px 3px 0 0;
+	margin-bottom: 15px;
+}
+.to_address{
+	margin-top: 20px;
+    width: 96%;
+    height: 90px;
+    line-height: 30px;
+    margin: auto;
+    border-bottom: 1px solid #c6dadc;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.to_address_info{
+    max-height: 65%;
+    min-height: 65%;
+    overflow: auto;
+    font-size: 12px;
+    min-width: 200px;
+    overflow: auto;
+}
+.add_new_address{
+	float: left;
+	margin-left: 30px;
+	width: 30px;
+	height: 25px;
+	line-height: 25px;
+	cursor: pointer;
+}
+.address_list{
+	max-width: 24%;
+    height: 150px;
+   	border: 1px solid #d7e0f1;
+   	border-radius: 3px;
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.address_list:hover{
+	max-width: 411px;
+    height: 150px;
+   	border: 1px solid #d7e0f1;
+   	border-radius: 3px;
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 15px;
+    box-shadow: 3px 3px 5px #eee;
+}
+.address{
+	margin-top: 15px;
+    height: 50px;
+    line-height: 20px;
+}
+.check{
+	padding: 0;
+    max-width: 90px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+}
+.check:hover{
+	padding: 0;
+    max-width: 90px;
+    cursor: pointer;
+    background: red;
+    text-align: center;
+    font-size: 10px;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 6px;
+    color: #fff;
+}
+.pull-left{
+	width: 20px;
+    height: 20px;
+}
+.ok1{
+	color: red;
+}
+.no_check{
+	padding: 0;
+	max-width: 90px;
+	cursor: pointer;
+}
+.edit,.delete{
+	padding：0;
+	max-width: 80px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	text-align: center;
+}
+.edit:hover,.delete:hover{
+	background: #03a9f4;
+	border-radius: 10px;
+	color: #fff;
+}
+
+/*新增地址*/
+.new_address{
+	display: block;
+    position: absolute;
+    width: 30%;
+    height: 300px;
+    background-color: #edf0f5;
+    z-index: 100;
+    margin: auto;
+    display: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #716c6c;
+    margin-left: 25%;
+    font-size: 12px;
+}
+.new_address_tital{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #2196f3;
+}
+.product_order_menu{
+	width: 120px;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+}
+.btn_pr{
+	margin-top: 20px;
+	height: 25px;
+}
+.detail{
+	width: 100%;
+	height: 200px;
+	border-radius: 0 0 3px 3px;
+}
+.add_new{
+	float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: #139cda;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-left: 40px;
+    color: #fff;
+    box-shadow: 0 0 10px #716c6c;
+    cursor: pointer;
+}
+.cental_pro{
+	float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-left: 40px;
+    color: #999;
+    box-shadow: 0 0 10px #716c6c;
+    cursor: pointer;
+}
+.credentials{
+    width: 30%;
+    height: 400px;
+    background: red;
+    display: block;
+    position: absolute;
+    background-color: #edf0f5;
+    z-index: 9999;
+    margin: auto;
+    display: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #716c6c;
+    margin-left: 25%;
+}
+.uplod{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+    background: #fff;
+}
+.up_img{
+  	width: 220px;
+    margin: auto;
+    height: 220px;
+    border-radius: 100%;
+}
+.up_btn,.cancal_btn {
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background: #2196F3;
+    color: #fff;
+    margin-left: 30px;
+    border-radius: 15px;
+    float: left;
+    cursor: pointer;
+    margin-top: 10px;
+}

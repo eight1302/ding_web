@@ -1,0 +1,31 @@
+{
+	 "data":{
+        "oem_menu_data":[
+            {"id":"1","contract_no":"CY-17-0001","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"销售审核"},
+            {"id":"2","contract_no":"CY-17-0002","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"返修中"},
+            {"id":"3","contract_no":"CY-17-0003","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"接收中"},
+            {"id":"4","contract_no":"CY-17-0004","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"发货中"},
+            {"id":"5","contract_no":"CY-17-0005","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"接收中"},
+            {"id":"6","contract_no":"CY-17-0006","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"返修中"},
+            {"id":"7","contract_no":"CY-17-0007","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"接收中"},
+            {"id":"8","contract_no":"CY-17-0008","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"返修中"},
+            {"id":"9","contract_no":"CY-17-0009","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"接收中"},
+            {"id":"10","contract_no":"CY-17-0010","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"返修中"},
+            {"id":"11","contract_no":"CY-17-0011","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"接收中"},
+            {"id":"12","contract_no":"CY-17-0012","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"销售审核"},
+            {"id":"13","contract_no":"CY-17-0013","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"接收中"},
+            {"id":"14","contract_no":"CY-17-0014","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"已送达"},
+            {"id":"15","contract_no":"CY-17-0015","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"接收中"}
+         ],
+        "product" : [
+            {"id":"1","textare_oem":"1、电路板故障；2、线路问题；3、植入重新问题；4、...","img_oem":"../../img/timg.jpg"}
+
+        
+        ],
+        "select_one_product":[
+          {"id":"15","contract_no":"CY-17-0015","contract_data":"2017.8.5","pooduct_no":"CY-170001","pooduct_name":"电动牙刷","product_type":"小型","product_quantity":"10","contract_state":"接收中"}
+        ],
+        "state":200
+    }
+}
+

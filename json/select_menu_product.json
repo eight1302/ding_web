@@ -1,0 +1,43 @@
+{
+	 "data":{
+        "select_menu_product":[
+            {"id":"1","contract_no":"CY-17-0001","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"已签收","product_question":"1000"},
+            {"id":"2","contract_no":"CY-17-0002","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"部分签收","product_question":"1000"},
+            {"id":"3","contract_no":"CY-17-0003","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"已签收","product_question":"1000"},
+            {"id":"4","contract_no":"CY-17-0004","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"已签收","product_question":"1000"},
+            {"id":"5","contract_no":"CY-17-0005","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"部分签收","product_question":"1000"},
+            {"id":"6","contract_no":"CY-17-0006","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"已签收","product_question":"1000"},
+            {"id":"7","contract_no":"CY-17-0007","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"部分签收","product_question":"1000"},
+            {"id":"8","contract_no":"CY-17-0008","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"已签收","product_question":"1000"},
+            {"id":"9","contract_no":"CY-17-0009","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"部分签收","product_question":"1000"},
+            {"id":"10","contract_no":"CY-17-0010","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"已签收","product_question":"1000"},
+            {"id":"11","contract_no":"CY-17-0011","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"部分签收","product_question":"1000"},
+            {"id":"12","contract_no":"CY-17-0012","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"已签收","product_question":"1000"},
+            {"id":"13","contract_no":"CY-17-0013","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"已签收","product_question":"1000"},
+            {"id":"14","contract_no":"CY-17-0014","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"部分签收","product_question":"1000"},
+            {"id":"15","contract_no":"CY-17-0015","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"已签收","product_question":"1000"}
+        ],
+        "product" : [
+            {"id":"1","number":"CY-17-0001","pooduct_name":"风扇","product_type":"中小型","product_question":"100"},
+            {"id":"2","number":"CY-17-0002","pooduct_name":"风扇","product_type":"中小型","product_question":"100"},
+            {"id":"3","number":"CY-17-0003","pooduct_name":"风扇","product_type":"中小型","product_question":"100"},
+            {"id":"4","number":"CY-17-0004","pooduct_name":"风扇","product_type":"中小型","product_question":"100"},
+            {"id":"5","number":"CY-17-0005","pooduct_name":"风扇","product_type":"中小型","product_question":"100"},
+            {"id":"6","number":"CY-17-0006","pooduct_name":"风扇","product_type":"中小型","product_question":"100"},
+            {"id":"7","number":"CY-17-0007","pooduct_name":"风扇","product_type":"中小型","product_question":"100"},
+            {"id":"8","number":"CY-17-0008","pooduct_name":"风扇","product_type":"中小型","product_question":"100"},
+            {"id":"9","number":"CY-17-0009","pooduct_name":"风扇","product_type":"中小型","product_question":"100"},
+            {"id":"10","number":"CY-17-0010","pooduct_name":"风扇","product_type":"中小型","product_question":"100"},
+            {"id":"11","number":"CY-17-0011","pooduct_name":"风扇","product_type":"中小型","product_question":"100"},
+            {"id":"12","number":"CY-17-0012","pooduct_name":"风扇","product_type":"中小型","product_question":"100"},
+            {"id":"13","number":"CY-17-0013","pooduct_name":"风扇","product_type":"中小型","product_question":"100"},
+            {"id":"14","number":"CY-17-0014","pooduct_name":"风扇","product_type":"中小型","product_question":"100"},
+            {"id":"15","number":"CY-17-0015","pooduct_name":"风扇","product_type":"中小型","product_question":"100"}
+        
+        ],
+        "select_one_product":[
+           {"id":"15","contract_no":"CY-17-0015","pooduct_name":"风扇","product_data":"2017/8/15","product_type":"中小型","contract_state":"已签收","product_question":"1000"}
+        ],
+        "state":200
+    }
+}

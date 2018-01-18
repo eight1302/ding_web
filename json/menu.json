@@ -1,0 +1,21 @@
+{
+    "menu":{
+    	"home":"首页",
+    	"service":"自助下单",
+        "oem_service":"oem产品列表",
+        "weld_service":"焊接产品列表",
+    	"order":"合同管理",
+        "oem_order":"OEM合同管理",
+        "weld_order":"焊接合同管理",
+    	"person":"个人中心",
+    	"sale":"售后管理",
+        "select_menu":"选择返修产品列表",
+        "oem_menu":"OEM产品返修列表",
+        "weld_menu":"焊接产品返修列表",
+    	"state":200
+    },
+    "download":"../chrome/Chrome.exe",
+    "pcb" : "../../chrome/PCB.zip",
+    "bom" : "../../chrome/BOM.xls",
+    "state" :200
+}
