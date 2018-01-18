@@ -1,0 +1,547 @@
+<!--自助下单主页面设计开始-->
+<section class="service_mian">
+	<div class="data col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="product_table">
+			<!--OEM下单信息开始-->
+			<div class="product_menu">
+				<div class="product_weld">焊接下单列表</div>
+			</div>
+			<!--焊接下单信息开始-->
+			<div class="weld">
+				<div class="weld_menu">
+					<div class="product_menu_weld_add">添加产品</div>
+					<div class="product_menu_weld_order">下单</div>
+					<div class="product_menu_weld_update">修改</div>
+					<div class="product_menu_weld_dele">删除</div>
+				</div>
+				<div class="product">
+					<div class="products_time" style="margin-top: 10px;">
+						<label for="data1">
+							<img src="../../img/data.png" />
+						</label>
+						<input type="text" id="data1" placeholder="选择日期" name="mydate" class="data1" readonly>&nbsp;&nbsp;
+						<label for="data2">
+							<img src="../../img/data.png" />
+						</label>
+						<input type="text" id="data2" placeholder="选择日期" name="mydate" class="data2" readonly>
+						<div class="search_btn">
+							<span class="icon-search"></span>
+						</div>
+					</div>
+				</div>
+				<table data-toggle="table" class="table-height">
+				    <thead>
+				        <tr class="product_tr">
+				            <th class="col-md-1" data-field="state" data-checkbox="true"></th>
+				            <th class="col-md-2" data-field="product_id" data-align="center">产品编号</th>
+				            <th class="col-md-2" data-field="product_time" data-align="center">添加日期</th>
+				            <th class="col-md-2" data-field="product_name" data-align="center">产品名称</th>
+				            <th class="col-md-2" data-field="product_number" data-align="center">产品型号</th>
+				            <th class="col-md-2" data-field="product_type" data-align="center">产品类型</th>
+				            <th class="col-md-1" data-field="product_details" data-align="center">产品详情</th>
+				        </tr>
+				    </thead>
+				</table>
+				<div class="page-data">
+					<div  class="page_list_weld"><!--商品信息列表--></div>
+	             	<div class="page-left"></div> 
+	       		</div> 
+			</div>
+			<!--焊接下单信息结束-->
+		</div>
+	</div>
+</section> 
+<!--自助下单主页面设计结束-->
+
+<!--产品下单静态页面编写开始-->
+<div class="overflow_three1"></div>
+<section class="shop_orders">
+	<div class="products_menu1">
+		<div class="product_order_menu">
+			<span>自助下单</span>
+		</div>
+		<div class="cental_pro">
+			<img src="../../img/canel.png" style="width: 100%;height: 100%;margin-top: 1px;">
+		</div>
+	</div>
+	<div class="product_order" style="margin-top: 10px;">
+		<div class="order_list" style="width: 96%;margin: auto;"><!--加载下单信息--></div>
+			<div style="background: #fff;width: 96%;margin: auto;height: 120px;margin-top: 10px;">
+	               <div class="col-md-10 address">
+				<div class="col-md-12 adres">
+					<div class="col-md-12 charge">
+							<div class="col-md-2 express_name"><strong>收货人：</strong><!--收货人名称--></div>
+							<div class="col-md-3 express_phone"><strong>联系电话：</strong><!--收货人电话--></div>
+							<div class="col-md-3 express_way"><strong>快递方式：</strong><span class="express_y"></span><!--快递选项--></div>
+							<div class="col-md-4 express_address"  style="margin-bottom: 10px;"><strong>收货地址：</strong><!--收货人地址--></div>
+							<div class="col-md-12 express_s"  style="margin-bottom: 10px;">
+								<span style="color: red;">温馨提示:</span><i>快递方式、地址、收货人、联系电话是通过选择地址、选择快递添加！</i>
+								<p><input type="text" id="express_s" value="" style="display:none;"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2" style="font-size: 10px;float: right;">
+			 		<div class="col-md-8 add_adres" style="margin: 15px 0;">选择地址</div>
+			 		<div class="col-md-8 add_delivery" style="margin: 5px;">选择快递</div>
+				</div>
+			</div>
+		</div>
+		<div class="order_tax">
+		    <select id="order_tax" style="width: 100%;height: 30px;border-radius: 3px;color: red;">
+		       	<option value="-1" style="display:none;">是否含税</option>
+		        <option value="含税">含税</option>
+		        <option value="不含税">不含税</option>
+		    </select>
+	    </div>
+		<div class="sales_review">
+			<img src="../../img/submit.png">
+			<span>提交销售审核</span>
+		</div>
+		<div class="overlay_tow"></div>
+		<!--选择快递布局开始-->
+		<section class="delivery">
+		<div class="products_menu1">
+			<div class="product_order_menu">
+				<span style="font-size: 14px;">选择快递发送方式</span>
+			</div>
+		</div>
+		<div class="col-md-12" style="margin-top: 10px;">
+			<select class="col-md-7" id="delivery" style="height: 25px;line-height: 25px;">
+				<option value="创元发货">创元发货</option>
+				<option value="卖家取货">卖家取货</option>
+				<option value="圆通（快递）">圆通（快递）</option>
+				<option value="跨越（物流）">跨越（物流）</option>
+				<option value="顺丰（快递）">顺丰（快递）</option>
+				<option value="德邦（物流）">德邦（物流）</option>
+			</select>
+			<div class="col-md-3 insert_delivery">
+				<img src="../../img/submit.png">
+				<span>确定</span>
+			</div>
+		</div>
+		</section>
+		<!--选择快递布局结束-->
+
+		<!--选择地址布局开始-->
+		<section class="addres">
+		<div class="products_menu1">
+			<div class="product_order_menu">
+				<span style="font-size: 14px;">选择发货地址</span>
+			</div>
+		</div>
+		<div class="col-md-12 user_address" style="overflow: auto;">
+			<div class="user_ares" ><!--地址信息--></div>
+		</div>
+		<div class="col-md-12" style="margin-bottom: 10px;">
+			<div class="add_button">
+				<i class=" icon-plus-sign-alt"></i>
+			</div>
+			<span style="color: red;">添加新地址</span>
+		</div>
+		<div class="col-md-12 adress_information">
+			<div class="col-md-12" style="margin-bottom: 10px;">
+				<div class="col-md-6">
+					<label for="name">姓名：</label>
+					<input type="text" name="" id="name" value="">
+				</div>
+				<div class="col-md-6">
+					<label for="contact">联系电话：</label>
+					<input type="text" name="" id="contact" value="">
+				</div>
+			</div>
+			<div id="distpicker4" class="col-md-12" style="overflow: hidden;">
+				<div class="col-md-4 form-group" >
+					  <label class="sr-only" for="province">Province</label>
+					  <select class="form-control" id="province" value=""></select>
+				</div>
+				<div class="col-md-4 form-group">
+					  <label class="sr-only" for="city">City</label>
+					  <select class="form-control" id="city" value=""></select>
+				</div>
+				<div class="col-md-4 form-group">
+					 <label class="sr-only" for="district">District</label>
+					  <select class="form-control" id="district" value=""></select>
+				</div>
+			</div>
+			<div class="col-md-12" style="margin-bottom: 10px;">
+				<textarea class="col-md-12 text" id="text_detail" value="" style="height: 80px;resize:none;" placeholder="备注：请填写详细地址！"></textarea>
+			</div>
+			<div class="appent_address" style="width: 60px;height: 25px;line-height: 25px;font-size: 10px;">
+				<i class=" icon-plus-sign-alt"></i>
+				<span>添加</span>
+			</div>
+		</div>
+		<div class="insert_address" style="width: 80px;height: 30px;line-height: 30px;">
+			<img src="../../img/submit.png">
+			<span>确定</span>
+		</div>
+	</section>
+	<!--选择地址布局结束-->
+</section>
+<!--产品下单静态页面编写结束-->
+
+<!--添加,修改焊接产品信息布局开始-->
+<div class="overflow_weld"></div>
+<section class="weld_details">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 weld" style="padding: 0;">
+		<div class="products_menu">
+			<div class="oem_product">
+					<span>焊接产品信息填写</span>
+			</div>
+			<div class="cental_pro">
+				<img src="../../img/canel.png" style="width: 100%;height: 100%;margin-top: 1px;">	
+			</div>
+		</div>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 weldshop">
+			<div class="shop" style="width: 98%;margin-left: 1%;height: auto;">
+				<div class="shop_1" style="width: 100%;height: 110px;">
+					<div class="col-lg-6">
+						<label class="col-lg-12 col-md-12 col-sm-12 col-xs-12" for="weld_product_name">
+							<div class="whpro"></div>
+							<span class="whpro_name"><i style="color: red;">*</i>产品名称</span>
+						</label>
+						<input type="text" id="weld_product_name" name="product_name" value="" class="input_name">
+					</div>
+					<div class="col-lg-6">
+						<label for="weld_product_type" class="col-md-12">
+						<div class="whpro"></div>
+							<span class="whpro_name"><i style="color: red;">*</i>产品型号</span>
+						</label>
+						<input type="text" id="weld_product_type" name="product_type" value="" class="input_name">
+						<input type="text" id="product_class_type" name="product_type" value="OEM" class="input_name" style="display: none;">
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 shopdetal">
+				<div class="shopdetal_3" style="width: 49.5%;margin-right: 1%;">
+					<div class="pcbdetails">
+						<div class="whpro"></div>
+						<span class="whpro_name"><i style="color: red;">*</i>PCBA焊接选项</span>
+					</div>
+					<div style="width: 90%;margin: auto;">
+						<label for="weld_pcba_process" style="font-size: 12px;width: 88%;margin-left: 10px;margin-bottom: 10px;">
+								<i style="color: red;">*</i>
+							<span>工艺要求</span>
+						</label>
+						<select  id="weld_pcba_process" style="width: 87%;height: 25px;line-height: 25px;margin-left: 5%;">
+						<option value="有铅焊接">有铅焊接</option>
+							<option value="无铅焊接">无铅焊接</option>
+						</select>
+						<div style="width: 90%;margin: auto;">
+							<div style="width: 50%;float: left;">
+								<label for="weld_pcba_smt_type" style="font-size: 12px;width: 90%;margin-bottom: 10px;">
+									<i style="color: red;">*</i>
+									<span>SMT种类</span>
+								</label>
+								<input type="text" id="weld_pcba_smt_type" style="width: 93%;height: 25px;line-height: 25px;">
+							</div>
+							<div style="width: 50%;float: right;">
+								<label for="weld_pcba_smt_joints" style="font-size: 12px;width: 90%;margin-bottom: 10px;">
+									<i style="color: red;">*</i>
+									<span>SMT焊点</span>
+								</label>
+								<input type="text-align" id="weld_pcba_smt_joints" style="width: 93%;height: 25px;line-height: 25px;">
+							</div>
+						</div>
+						<div style="width: 90%;margin: auto;">
+							<div style="width: 50%;float: left;">
+								<label for="weld_pcba_dip_type" style="font-size: 12px;width: 90%;margin-bottom: 10px;">
+									<i style="color: red;">*</i>
+									<span>DIP种类</span>
+								</label>
+								<input type="text" id="weld_pcba_dip_type" style="width: 93%;height: 25px;line-height: 25px;">
+							</div>
+							<div style="width: 50%;float: right;">
+								<label for="weld_pcba_dip_joints" style="font-size: 12px;width: 90%;margin-bottom: 10px;">
+									<i style="color: red;">*</i>
+									<span>PIP焊点</span>
+								</label>
+								<input type="text" name=""  id="weld_pcba_dip_joints" style="width: 93%;height: 25px;line-height: 25px;">
+							</div>
+						</div>
+						<div style="width: 90%;margin: auto;">
+							<div style="width: 50%;float: left;">
+								<label for="weld_pcba_stencil" style="font-size: 12px;width: 90%;margin-bottom: 10px;">
+									<i style="color: red;">*</i>
+									<span>钢网</span>
+								</label>
+								<select  id="weld_pcba_stencil" style="width: 93%;height: 25px;line-height: 25px;">
+									<option value="甲方提供">甲方提供</option>
+									<option value="创元提供">创元提供</option>
+								</select>
+							</div>
+							<div style="width: 50%;float: right;">
+								<label for="weld_pcba_stencil_number" style="font-size: 12px;width: 90%;margin-bottom: 10px;">
+									<i style="color: red;">*</i>
+								<span>钢网编号<i style="color: red;">(MM)</i></span>
+								</label>
+								<input type="text" name="" id="weld_pcba_stencil_number" style="width: 93%;height: 25px;line-height: 25px;">
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="shopdetal_4" style="width: 49.5%;">
+					<div class="pcbdetails">
+						<div class="whpro"></div>
+						<span class="whpro_name"><i style="color: red;">*</i>测试组装</span>
+					</div>
+					<div style="width: 90%;margin: auto;">
+						<div style="width: 90%;margin: auto;">
+							<div style="width: 50%;float: left;">
+								<label for="weld_test_time" style="font-size: 12px;width: 90%;margin-bottom: 10px;">
+									<i style="color: red;">*</i>
+									<span>测试时间<i style="color: red;">(MIN)</i></span>
+								</label>
+								<input type="text" name="" id="weld_test_time" style="width: 93%;height: 25px;line-height: 25px;">
+							</div>
+							<div style="width: 50%;float: right;">
+								<label for="weld_prevent_cm2" style="font-size: 12px;width: 90%;margin-bottom: 10px;">
+								<i style="color: red;">*</i>
+									<span>喷涂三防<i style="color: red;">(cm2)</i></span>
+									</label>
+								<input type="text" id="weld_prevent_cm2" style="width: 95%;height: 25px;line-height: 25px;">
+							</div>
+						</div>
+						<div style="width: 90%;margin: auto;">
+							<label for="weld_remark" style="font-size: 12px;width: 100%;">
+								<span>备注</span>
+							</label>
+							<textarea id="weld_remark" value="" style="width: 98%;height: 120px;margin: auto;resize: none;"></textarea>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="btn_pr">
+				<div class="add_weld_product">
+					<img src="../../img/add.png">
+					<span>下一步</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="overlay_uplod"></div>
+<section class="file_uplod">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 weld" style="padding: 0;">
+		<div class="products_menu">
+			<div class="oem_product">
+					<span>上传文件夹</span>
+			</div>
+		</div>
+		<div class="col-lg-12" style="text-align: center;color: #f90f0f;font-size: 16px;margin-top: 10px;">
+			<span>PCB文件、BOM文件必须上传</span>
+		</div>
+		
+		<div class="col-md-12 detail">
+			<div class="shop_2">
+				<div class="progress_pcb">
+					<div class="pro_des">
+						<span style="color: #fff;">
+							<span class="time1"></span>
+						</span>
+					</div>
+					<progress class="prog"></progress>
+				</div>
+				<div class="pcb_upload">
+					<div style="text-align: center;">
+						<i style="color: red;">*</i>
+						PCB文件上传
+					</div>
+					<img src="../../img/uplod.png" class="uplod_weld_pcb">
+					<input type="file" id="weld_pcb_file" style="width: 80%;margin-left: 20px;display: none;" value="">
+					<p style="color: #ff0808; margin-top: 5px;">*请上传压缩包文件</p>
+				</div>
+				<div class="btn_pr">
+					<div class="add_pcb" id="add_pcb">
+						<img src="../../img/add.png">
+						<span>提交PCB文件</span>
+					</div>
+				</div>
+			</div>
+			<div class="shopdetal_2">
+				<div class="progress_bom">
+					<div class="pro_des">
+						<span style="color: #fff;">
+							<span class="time2"></span>
+						</span>
+					</div>
+					<progress class="prog_bom"></progress>
+				</div>
+				<div class="pcb_upload">
+					<i style="color: red;">*</i>
+					<span>上传BOM批量询价</span><br />		
+					<img src="../../img/uplod.png" type="file" class="uplod_weld_bom">
+					<input type="file" id="weld_bom_file" style="width: 80%;margin-left: 20px;display:none;" value="">
+					<p style="color: #ff0808; margin-top: 5px;">*请上传EXCEL文件</p>
+				</div>
+				<div class="btn_pr">
+					<div class="add_bom">
+						<img src="../../img/add.png">
+						<span>提交BOM文件</span>
+					</div>
+				</div>
+			</div>
+			<div class="shop_3">
+				<div class="progress_coordinate">
+					<div class="pro_des">
+						<span style="color: #fff;">
+							<span class="time4"></span>
+						</span>
+					</div>
+					<progress class="prog_coordinate"></progress>
+				</div>
+				<div class="pcb_upload">
+					<div style="text-align: center;">
+						坐标文件上传
+					</div>
+					<img src="../../img/uplod.png" class="uplod_weld_coordinate">
+					<input type="file" id="weld_coordinate_file" style="width: 80%;margin-left: 20px;display: none;" value="">
+					<p style="color: #ff0808; margin-top: 5px;">*请上传压缩包文件</p>
+				</div>
+				<div class="btn_pr">
+					<div class="add_coordinate">
+						<img src="../../img/add.png">
+						<span>提交坐标文件</span>
+					</div>
+				</div>
+			</div>
+			<div class="shop_4">
+				<div class="progress_process">
+					<div class="pro_des">
+						<span style="color: #fff;">
+							<span class="time3"></span>
+						</span>
+					</div>
+					<progress class="prog_process"></progress>
+				</div>
+				<div class="pcb_upload">
+					<div style="text-align: center;">
+						生产工艺文件上传
+					</div>
+					<img src="../../img/uplod.png" type="file" class="uplod_weld_process">
+					<input type="file" id="weld_process_file" style="width: 80%;margin-left: 20px;display: none;" value="">
+					<p style="color: #ff0808; margin-top: 5px;">*请上传压缩包文件</p>
+				</div>
+				<div class="btn_pr">
+					<div class="add_process">
+						<img src="../../img/add.png">
+						<span>提交工艺文件</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 btn_pr">
+			<div class="complete">
+				<span class="icon-ok-sign"></span>
+				完成
+			</div>
+		</div>
+	</div>
+</section>
+<!--添加,修改焊接产品信息布局结束-->
+
+<!--查看焊接情静态特面编辑开始-->
+<div class="overlay_weld_tow"></div>
+<section class="orders_weld_details">
+	<div class="products_menu">
+		<div class="oem_product">
+			<span>焊接产品信息详情</span>
+		</div>
+		<!--操作按钮-->
+		<div class="cental_pro">
+			<img src="../../img/canel.png" style="width: 100%;height: 100%;margin-top: 1px;">
+		</div>
+	</div>
+	<div class="product_datials">
+	<!--焊接订单表单提交-->
+	<div class="col-md-12 weld">
+		<div class="weld_datials">
+			<div class="oem_dat">
+				<div class="col-md-3 oem_broduct_datials" style="width: 26%;">
+					<div class="pro_da">
+						<div class="whpro"></div>
+						<span class="whpro_name"><i style="color: red;">*</i>产品信息</span>
+					</div>
+					<table data-toggle="table" class="table-height">
+						<thead>
+								<tr class="product_tr">
+								<th class="col-md-4" data-field="product_id" data-align="center">产品编号</th>
+								<th class="col-md-4" data-field="product_id" data-align="center">产品名称</th>
+								<th class="col-md-4" data-field="product_time" data-align="center">产品型号</th>
+							</tr>
+						</thead>
+					</table>
+					<div class="page-data">
+						<div  class="weld_list" style="margin-top: 10px;"><!--weld产品信息TUDO--></div>
+			       	</div> 
+				</div>
+				<div class="col-md-5 pcb_datials">
+					<div class="pro_da">
+						<div class="whpro"></div>
+						<span class="whpro_name"><i style="color: red;">*</i>测试组装</span>
+					</div>
+					<table data-toggle="table" class="table-height">
+						<thead>
+							<tr class="product_tr">
+								<th class="col-md-3" data-field="product_id" data-align="center">测试组装</th>
+								<th class="col-md-3" data-field="product_id" data-align="center">组装时间</th>
+								<th class="col-md-3" data-field="product_id" data-align="center">喷涂三防</th>
+								<th class="col-md-3" data-field="product_time" data-align="center">备注</th>
+						    </tr>
+					    </thead>
+					</table>
+					<div class="page-data">
+						<div  class="list_testing" style="margin-top: 10px;"><!--weld测试信息TUDO--></div>
+			       	</div> 
+				</div>
+				<div class="col-md-3 oem_download" style="width: 26%;">
+					<div class="pro_da">
+						<div class="whpro"></div>
+						<span class="whpro_name"><i style="color: red;">*</i>相关信息下载</span>
+					</div>
+					<div class="page-data">
+						<div  class="list_downlod" style="margin-top: 10px;"><!--weld下载信息TUDO--></div>
+		      		</div> 
+				</div>
+			</div>
+			<div class="col-md-12 oem_dat">
+				<div class="weld_pcba_datials" style="margin-left: 5px;">
+					<div class="pro_da" style="margin-left: 10px;">
+						<div class="whpro"></div>
+						<span class="whpro_name"><i style="color: red;">*</i>PCBA清单</span>
+					</div>
+					<table data-toggle="table" class="table-height">
+					    <thead>
+					        <tr class="product_tr">
+					            <th class="col-md-2" data-field="product_id" data-align="center">工艺要求</th>
+					            <th class="col-md-1" data-field="product_id" data-align="center" title="SMT种类">SMT</th>
+					            <th class="col-md-2" data-field="product_time" data-align="center">SMT焊点</th>
+					            <th class="col-md-1" data-field="product_id" data-align="center" title="DIP种类">DIP</th>
+					            <th class="col-md-2" data-field="product_id" data-align="center">DIP焊点</th>
+					            <th class="col-md-2" data-field="product_time" data-align="center">钢网</th>
+						        <th class="col-md-2" data-field="product_id" data-align="center">钢网编号</th>
+						    </tr>
+						</thead>
+					</table>
+					<div class="page-data">
+						<div  class="list_pcba" style="margin-top: 10px;"><!--weld下载信息TUDO--></div>
+			       	</div> 
+				</div>
+			</div>
+			<div class="col-md-12 oem_dat">
+				<div class="pcba_bom" style="margin-right: 22px;">
+					<div class="pro_da" style="margin-left: 10px;margin-top: 0px;">
+						<div class="whpro" style="margin-top: 10px; margin-bottom: 10px;"></div>
+						<span class="whpro_name" style="line-height: 45px;"><i style="color: red;">*</i>BOM清单</span>
+					</div>
+					<div class="product_tr_weld"><!--weld的bom表头--></div>
+					<div class="page-data">
+						<div  class="product_bom"><!--weld bom信息TUDO--></div>
+			       	</div> 
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--查看焊接详情静态特面编辑结束-->

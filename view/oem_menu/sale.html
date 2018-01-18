@@ -1,0 +1,112 @@
+<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 oem_product">
+	<div class="col-md-12 selcet_des">
+		<div class="col-md-2 repair_info">
+			<span>OEM返修产品</span>
+		</div>
+		<div class="col-md-8" style="position: relative;">
+			<div class="repair_process">
+				<span class="col-md-2" style="line-height: 60px;color: #2196f3;padding-left: 9%;">返修操作流程</span>
+				<div class="col-md-10 repair_des">
+					<div class="col-md-12 timeline_red"></div>
+					<div class="col-md-12 red_detail"><!--预支付全款流程数据--></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2" style="float: right;">
+			<div class="repair_find">
+				<input type="text" name="" class="con_on" id="contract_no" value="" placeholder="输入合同号!" style="width: 100px;">
+				<button class="con_btn">搜索</button>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-12 repair_product_des">
+		<div class="des_product">
+			<div class="contract_no">合同编号</div>
+			<div class="contract_data">返修日期</div>
+			<div class="pooduct_no">产品编号</div>
+			<div class="pooduct_name">产品名称</div>
+			<div class="product_type">产品型号</div>
+			<div class="product_quantity">返修数量</div>
+			<div class="contract_state">订单状态</div>
+			<div class="logistics">填写物流信息</div>
+			<div class="selcet_pro">查看质量问题</div>
+		</div>
+		<div class="page-data">
+			<div class="oem_contracts"><!--返修产品列表--></div>
+	         <div class="page-left"></div> 
+       	</div> 
+		
+	</div>
+</section>
+
+<!--展示返修信息-->
+<div class="product_repair"></div>
+<section class="product_question">
+	<div class="col-md-12 repair_title">
+		<span style="font-size: 18px;color: #fff;margin-left: 20px;">质量问题详情</span>
+		<div class="cental_pro_one">
+			<img src="../../img/canel.png" style="width: 100%;height: 100%;margin-top: 1px;">
+		</div>
+	</div>
+	<div class="col-md-12 question">
+		<div class="col-md-6 question_des">
+			<div class="des_ques">问题描述</div>
+			<textarea class="textare" id="textare_oem" value="" placeholder="请输入质量问题,问题**，用分号分开,字数小于1500!"></textarea>
+		</div>
+		<div class="col-md-6 question_img">
+			<div class="des_ques">产品图片</div>
+			<div class="imgs"><!--预览图片--><img src="" class="img" id="img_oem" style="width: 100%;height: 100%;"></div>
+		</div>
+	</div>
+</section>
+
+<!--填写物流信息-->
+<section class="logis_product">
+	<div class="col-md-12 repair_title">
+		<span style="font-size: 18px;color: #fff;margin-left: 20px;">填写物信息</span>
+		<div class="cental_pro_one">
+			<img src="../../img/canel.png" style="width: 100%;height: 100%;margin-top: 1px;">
+		</div>
+	</div>
+	<div class="col-md-12 logis_detail">
+		<div class="col-md-12 distribution">
+			<div class="col-md-2 ten">
+				<span class="nine">配送方式</span>
+			</div>
+			<div  class="col-md-10 eight">
+				<select class="sex" id="distribution">
+					<option value="0"></option>
+					<option value="甲方配送">甲方配送</option>
+					<option value="快递配送">快递配送</option>
+				</select>
+			</div>
+		</div>
+		<div class="col-md-12 distribution">
+			<div class="col-md-2 ten">
+				<span class="nine">选择快递</span>
+			</div>
+			<div  class="col-md-10 eight">
+				<select class="sex" id="delivery">
+					<option value="0"></option>
+					<option value="甲方配送" class="sel_opt">甲方配送</option>
+					<option value="圆通（快递）">圆通（快递）</option>
+					<option value="跨越（物流）">跨越（物流）</option>
+					<option value="顺丰（快递）">顺丰（快递）</option>
+					<option value="德邦（物流）">德邦（物流）</option>
+				</select>
+			</div>
+		</div>
+		<div class="col-md-12 distribution">
+			<div class="col-md-2 ten">
+				<span class="nine">物流订单</span>
+			</div>
+			<div  class="col-md-10 eight">
+				<input type="text" class="con_on" id="con_on" value="" placeholder="请填写物流单号!" style="height: 39px;width: 90%;">
+			</div>
+		</div>
+	</div>
+	<div class="oem_repair_btn">
+		<img src="../../img/add.png">
+		<span>提交</span>
+	</div>
+</section>

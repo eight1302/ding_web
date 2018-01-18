@@ -1,0 +1,301 @@
+<section class="order_func">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 order_fu">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 order_menu">
+			<div class="col-md-1 order_oem_menu">OEM合同管理</div>
+			<div class="col-md-1 order_flow">流程信息</div>
+			<div class="col-md-9 flow">
+				<div class="order_main_oem">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 one">
+							<span style="color: #03a9f4;">(OEM)预支付全款流程</span>
+						</div>
+						<div class="col-md-10">
+							<div class="col-md-12 timeline_red"></div>
+							<div class="col-md-12 red_detail" style="display: block;margin-top: 10px;padding: 0;"><!--预支付全款流程数据--></div>
+						</div> 
+					</div>
+					<div class="col-md-12" style="margin-top: 15px;">
+						<div class="col-md-2 one">
+							<span style="color:#4caf50;">(OEM)首付-尾款支付流程</span>
+						</div>
+						<div class="col-md-10">
+							<div class="col-md-12 timeline_green"></div>
+							<div class="col-md-12 green_detail" style="display: block;margin-top: 10px;padding: 0;"><!--首付-尾款支付流程数据--></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 order_main_oem">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 oem">
+				<div class="col-md-12 oreder_operation">
+					<!--<div class="col-md-2">
+						<div class="col-md-12 oem_delete">
+							<span>删除</span>
+						</div>
+					</div>-->
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="col-md-7" >
+							<div class="col-md-12" style="padding: 0;margin-left: 30%;width: 70%;">
+								<div class="col-md-8" style="padding: 0;">
+									<label for="data1">
+										<img src="../../img/data.png" />
+									</label>
+									<input type="text" id="data_oem_1" placeholder="选择日期" name="mydate" class="data_oem_1" readonly style="width: 28%;" >&nbsp;&nbsp;
+									<label for="data2">
+										<img src="../../img/data.png" />
+									</label>
+									<input type="text" id="data_oem_2" placeholder="选择日期" name="mydate" class="data_oem_2" readonly style="width: 28%;">
+								</div>
+								<div class="col-md-1 search_ome_btn" style="margin-left: -5%;">
+									<span class="icon-search"></span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<select class="col-md-4" id="oem_tax" style="max-width: 30%;margin-right: 5%">
+								<option value="0">全部</option>
+								<option value="1">含税</option>
+								<option value="2">不含税</option>
+							</select>
+							<select class="col-md-4" id="oem_order_status" style="max-width: 30%;margin-right: 5%">
+								<option value="0">全部</option>
+								<option value="1">销售审核中</option>
+								<option value="2">等待客户确认</option>
+								<option value="3">上传支付凭证</option>
+								<option value="4">生产中</option>
+								<option value="5">发货</option>
+								<option value="6">已送达,上传支付凭证</option>
+								<option value="7">返修中</option>
+								<option value="8">部分签收</option>        
+							</select>
+							<select class="col-md-4" id="oem_payment_status" style="max-width: 30%;">
+								<option value="0">全部</option>
+								<option value="1">部分支付</option>
+								<option value="2">已支付</option>
+								<option value="3">未支付</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--订单管理描述-->
+			<div class="col-md-12 tital_detail" style="padding: 0;overflow: hidden;">
+			    <div class="ordinal">序</div>
+			    <div class="contract_no">合同编号</div>
+			    <div class="data_order">下单日期</div>
+			    <div class="data_play">预计交付日期</div>
+			    <div class="product_name">产品名称</div>
+			    <div class="product_model">产品型号</div>
+			    <div class="product_quantity">产品数量</div>
+			    <div class="tax">是否含税</div>
+			    <div class="clients_confirmation">客户确认</div>
+			    <div class="order_status">订单状态</div>
+			    <div class="full_payment_rate">总价</div>
+			    <div class="down_payment">未支付金额</div>
+			    <div class="payment_status">付款状态</div>
+			    <div class="upload_payment">上传支付凭证</div>
+			    <div class="contract_details">合同详情</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style="padding: 0;height: 98%;overflow: auto;">
+				<div class="page-data">
+					<div class="data_detail_oem"><!--加载OEM信息--></div>
+	             	<div class="page-left"></div> 
+       			</div> 
+			</div>
+		</div>
+	</div>
+
+	<div class="overlay_num1"></div>
+	<!--OEM合同产品信息开始——布局-->
+	<section class="oem_contract_all_praduct">
+		<div class="contract_tital">
+			<span>OEM合同详情</span>
+			<div class="cental_pro">
+				<img src="../../img/canel.png" style="width: 100%;height: 100%;margin-top: 1px;">	
+			</div>
+		</div>
+		<div class="oem_product">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tital_detail" style="padding: 0;overflow: hidden;text-align: center;">
+		        <div class="col-md-2 product_no_info">产品编号</div>
+			    <div class="col-md-2 product_name_info">产品名称</div>
+			    <div class="col-md-2 product_model_info">产品型号</div>
+			    <div class="col-md-2 product_quantity_info">产品数量</div>
+			    <div class="col-md-2 full_payment_rate_info">产品总价</div>
+			    <div class="col-md-2 product_details_info">合同详情</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 oem_detail"  style="padding:1px;"><!--OEM合同下的信息--></div>
+		</div>
+	</section>
+
+	<!--弹出二级弹出框以及覆盖层开始-->
+	<div class="overlay_tow">
+		<section class="orders_details_oem">
+			<div class="products_menu">
+				<div class="oem_tro_product">
+					<span>OEM产品信息详情</span>
+				</div>
+				<!--操作按钮-->
+				<div class="cental_oem">
+					<img src="../../img/canel.png" style="width: 100%;height: 100%;">
+				</div>
+			</div>
+			<div class="product_datials">
+				<!--oem订单表单提交-->
+				<div class="oem_datials">
+					<div class="oem_dat">
+						<div class="col-md-3 oem_broduct_datials">
+							<div class="pro_da">
+								<div class="whpro"></div>
+								<span class="whpro_name"><i style="color: red;">*</i>产品信息</span>
+							</div>
+							<div class="col-md-12 oem_profile">
+							    <div class="col-md-4" data-field="product_id" data-align="center">产品编号</div>
+							    <div class="col-md-4" data-field="product_id" data-align="center">产品名称</div>
+							    <div class="col-md-4" data-field="product_time" data-align="center">产品型号</div>
+							</div>
+							<div class="page-data">
+								<div  class="list_product" style="margin-top: 10px;"><!--oem产品信息TUDO--></div>
+				       		</div> 
+						</div>
+						<div class="col-md-5 pcb_datials">
+							<div class="pro_da">
+								<div class="whpro"></div>
+								<span class="whpro_name"><i style="color: red;">*</i>PCB</span>
+							</div>
+							<div class="col-md-12 oem_profile">
+							    <div class="col-md-3" data-field="product_id" data-align="center">尺寸(CM)</div>
+							    <div class="col-md-2" data-field="product_id" data-align="center">层数</div>
+							    <div class="col-md-2" data-field="product_time" data-align="center">厚度(MM)</div>
+							    <div class="col-md-2" data-field="product_id" data-align="center"> 阻焊喷镀</div>
+							    <div class="col-md-3" data-field="product_time" data-align="center">焊盘覆盖</div>
+							</div>
+							<div class="page-data">
+								<div  class="list_pcb" style="margin-top: 10px;text-align: center;"><!--oem pcb信息TUDO--></div>
+				       		</div> 
+						</div>
+						<div class="col-md-4 pcba_text">
+							<div class="pro_da">
+								<div class="whpro"></div>
+								<span class="whpro_name"><i style="color: red;">*</i>测试组装</span>
+							</div>
+							<div class="col-md-12 oem_profile">
+							    <div class="col-md-3" data-field="product_id" data-align="center">测试组装</div>
+							    <div class="col-md-3" data-field="product_id" data-align="center">组装时间</div>
+							    <div class="col-md-3" data-field="product_id" data-align="center">喷涂三防</div>
+							    <div class="col-md-3" data-field="product_time" data-align="center">备注</div>
+							</div>
+							<div class="page-data">
+								<div  class="list_testing" style="margin-top: 10px;"><!--oem测试信息TUDO--></div>
+				       		</div> 
+						</div>
+					</div>
+					<div class="oem_dat">
+						<div class="pcba_datials">
+							<div class="pro_da" style="margin-left: 10px;">
+								<div class="whpro"></div>
+								<span class="whpro_name"><i style="color: red;">*</i>PCBA清单</span>
+							</div>
+							<div class="col-md-12 oem_profile">
+							    <div class="col-md-2" data-field="product_id" data-align="center">工艺要求</div>
+							    <div class="col-md-1" data-field="product_id" data-align="center" title="SMT种类">SMT</div>
+							    <div class="col-md-2" data-field="product_time" data-align="center">SMT焊点</div>
+							    <div class="col-md-1" data-field="product_id" data-align="center" title="DIP种类">DIP</div>
+							    <div class="col-md-2" data-field="product_id" data-align="center">DIP焊点</div>
+							    <div class="col-md-2" data-field="product_time" data-align="center">钢网</div>
+							    <div class="col-md-2" data-field="product_id" data-align="center">钢网编号</div>
+							</div>
+							<div class="page-data">
+								<div  class="list_pcba" style="margin-top: 10px;"><!--oem pcba产品信息TUDO--></div>
+				       		</div> 
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 oem_dat">
+						<div class="pcba_bom">
+							<div class="pro_da" style="margin-left: 10px;margin-top: 0px;">
+								<div class="whpro" style="margin-top: 10px; margin-bottom: 10px;"></div>
+								<span class="whpro_name" style="line-height: 45px;"><i style="color: red;">*</i>BOM清单</span>
+							</div>
+							<div class="col-md-12 oem_profile" style="margin-top: -10px;">
+							    <div class="col-md-1" data-field="product_id" data-align="center">编号</div>
+							    <div class="col-md-2" data-field="product_id" data-align="center">名称</div>
+							    <div class="col-md-1" data-field="product_time" data-align="center">型号</div>
+							    <div class="col-md-1" data-field="product_id" data-align="center">封装</div>
+							    <div class="col-md-1" data-field="product_id" data-align="center">精度</div>
+							    <div class="col-md-1" data-field="product_time" data-align="center">品牌</div>
+							    <div class="col-md-1" data-field="product_id" data-align="center">位号</div>
+							    <div class="col-md-1" data-field="product_id" data-align="center">数量</div>
+							    <div class="col-md-1" data-field="product_id" data-align="center">价格</div>
+							    <div class="col-md-2" data-field="product_time" data-align="center">备注</div>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 page-data" style="padding: 0;">
+								<div  class="product_oem_bom"><!--oem bom信息TUDO--></div>
+				       		</div> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!--弹出二级弹出框以及覆盖层结束-->
+	<!--弹出付款选择方式开始-->
+	<section class="method">
+		<div class="method_tital">选择支付方式</div>
+		<div class="method_one">
+			<div class="method_portion">
+				<div class="method_two">
+					<span style="font-size: 1em;">
+						<strong>先支付定金，收货后支付尾款</strong>
+					</span>
+					<span class="portion_rmb">
+						 <i style="color: red;">250.00 RMB</i>
+					</span>
+					<div class="three">
+						<input type="radio" id="first_pay" name="radio" style="width: 17px;height: 20px;margin-top: 10px;">
+					</div>
+				</div>
+				<span style="font-size: 0.1em;">
+					<i style="color: red;margin-right: 10px;font-size: 0.1em;">*</i>
+					上传首款支付凭证后才开始生产，收到货后请上传尾款支付凭证，等待财务审核
+				</span>
+			</div>
+			<div class="method_portion" style="margin-top: 10px;">
+				<div class="method_two">
+					<span style="font-size: 1em;">
+						<strong>先付全款优惠（<span class="glyphicon glyphicon-tint" style="font-size: 20px;color: red;"></span>创元推荐）</strong>
+					</span>
+					<span class="portion_rmb">
+						<i style="color: red;">150.00 RMB</i>
+					</span>
+					<div class="three">
+						<input type="radio" id="all_pay" name="radio" style="width: 17px;height: 20px;margin-top: 10px;">
+					</div>
+				</div>
+				<span style="font-size: 0.1em;">
+					<i style="color: red;margin-right: 10px;font-size: 0.1em;">*</i>
+					上传全款支付凭证后才开始生产，等待财务审核&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</div>
+		</div>
+		<div class="method_three">
+			<div class="now">立即上传支付凭证</div>
+			<div class="after" style="background: #939ea7">稍后上传支付凭证</div>
+		</div>
+	</section>
+	<!--弹出付款选择结束-->
+
+	<!--上传支付凭证开始-->
+	<section class="credentials">
+		<div class="uplod">
+			<label style="margin-top: 20px;margin-left: 15px;">上传图片：<input type="file" class="file" id="file" value="" style="float: right;"></label>
+			<div class="up_img"><!--预览图片--><img src="" class="img" style="width: 100%;height: 224px;"></div>
+		</div>
+		<div class="method_three">
+			<div class="up_btn"><span class="icon-upload-alt" style="margin-right: 5px;font-size: 1.2em;"></span>上传</div>
+			<div class="cancal_btn" style="background: #939ea7">取消</div>
+			<span class="text_info" style="color: red;margin-left: 30px;display: none;">请上传支付凭证</span>
+		</div>
+	</section>
+	<!--上传支付凭证结束-->
+
+	<!--OEM合同产品信息开始——布局-->
+</section>

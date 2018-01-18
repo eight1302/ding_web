@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <title>创元智造</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/sweetalert.css">
+    <link rel="stylesheet" type="text/css" href="../css/register.css">
+    <link rel="stylesheet" type="text/css" href="../css/jquery.idcode.css">
+    <link rel="shortcut icon" href="cy.ico"/>
+  </head>
+  <body>
+    <div class="login">
+    	<div class="logo">
+    		<img src="../img/logo.png" style="height: 65px;">
+    	</div>
+        <div class="table_describe">
+                <img src="../img/discribe.png" style="height: 100%;margin-left: 30%;">
+            </div>
+        <section class="register">
+            <div class="login">
+                <p>我已注册，现在<a href="./login.html" class="login_a">登录</a></p>
+            </div>
+            <nav class="nav">
+                <div class="table">
+                    <div class="user">
+                        <label for="user">
+                            <span class="table_label">用户名：</span>
+                        </label>
+                        <input type="" name="" id="user" placeholder="请输入用户名称">
+                        <div class="user_msg" id="user_msg">
+                            <img src="../img/msg.png">
+                            <span id="msg_user">中文/字母/数字、符号</span>
+                        </div>
+                    </div>
+                    <div class="table_phone">
+                        <label for="phone">
+                            <span class="table_label">手机号：</span>
+                        </label>
+                        <input type="" name="" id="phone" placeholder="请输入手机号">
+                        <div class="phone_msg" id="phone_msg">
+                            <img src="../img/msg.png">
+                              <span id="msg_phone">请输入您的手机号码</span>
+                        </div>
+                    </div>
+                      <div class="phone_security">
+                         <label for="security">
+                            <span class="table_label">验证码：</span>
+                        </label>
+                        <input type="text" id="Txtidcode" class="txtVerification" style="width: 100px;height: 30px;line-height: 30px;">
+                        <span id="idcode"></span>
+                        <div class="security_msg" id="security_msg">
+                            <button type="button" id="btns">验证</button>
+                        </div>
+                    </div>
+                    <div class="company">
+                        <label for="company">
+                            <span class="table_label">公司全称：</span>
+                        </label>
+                        <input type="" name="" id="company" placeholder="请输入公司全称">
+                        <div class="company_msg" id="company_msg">
+                            <img src="../img/msg.png">
+                              <span id="msg_company">请输入公司全称</span>
+                        </div>
+                    </div>
+                    <div id="distpicker4" class="provinces" style="width: 58%;">
+                        <div class="form-group">
+                            <label for="province">所在省份：</label>
+                            <select class="form-control" id="provinces" value="" style="width: 70.3%;"></select>
+                        </div>
+                    </div>
+                    <div class="pass">
+                         <label for="pass">
+                            <span class="table_label">密&nbsp;&nbsp;码：</span>
+                        </label>
+                         <input type="password" name="" id="pass" placeholder="请输入密码">
+                        <div class="pass_msg" id="pass_msg">
+                            <img src="../img/msg.png">
+                              <span id="msg_pass">请输入6-20密码</span>
+                        </div>
+                    </div>
+                   <div class="pass_confirm">
+                         <label for="pass_confirm">
+                            <span class="table_label">确认密码：</span>
+                        </label>
+                         <input type="password" name="" id="pass_confirm" placeholder="确认密码">
+                        <div class="confirm_msg" id="confirm_msg">
+                            <img src="../img/msg.png">
+                              <span id="msg_confirm">必须和上面的密码一致</span>
+                        </div>
+                    </div>
+                    <div class="security">
+                         <label for="security">
+                            <span class="table_label">验证码：</span>
+                        </label>
+                        <input type="text" name="" id="security" class="security_input" placeholder="请输入验证码">
+                        <div class="free">
+                            <button class="security_button" id="security_button">
+                                <span>获取验证码</span>
+                            </button>
+                        </div>
+                        <div class="security_msg" id="security_msg">
+                            <img src="../img/msg.png">
+                              <span id="msg_security">成验证为六位数字或字母</span>
+                        </div>
+                    </div>
+                    <div class="regbtn">
+                        <input type="button" name="" class="regbtn1" value="注册" id="regbtn1">
+                    </div>
+                    <div class="protocol">
+                        <input type="checkbox" name="" class="checkbox1" id="checkbox1">
+                        <a href="./protocol.html" class="protocol_a" target="_black">《阅读并同意相关协议》</a>
+                    </div>
+
+                </div>
+                <div class="member">
+                    <div class="backg">
+                        <img src="../img/backg.png">
+                    </div>
+                    <div class="desinfo">
+                        <span class="sever">
+                            <strong>注册会员您可以享受如下服务:</strong>
+                        </span>
+                        <div class="sever_member">
+                            <p   class="sever_dse">
+                                <span class="sever_info">专业免费</span>
+                                的一对一解答
+                            </p>
+                            <p   class="sever_dse">
+                                <span class="sever_info">简单快递</span>
+                                的处理订单
+                            </p>
+                            <p   class="sever_dse">
+                                <span class="sever_info">随时随地</span>
+                                获取最新的订单进展
+                            </p>
+                        </div>
+                        <div class="sever_phone">
+                            <div class="sever_img">
+                                <img src="../img/ph.png">
+                            </div>
+                            <div class="sever_dhi">
+                                <div class="sever_help">
+                                    <span class="sever_helpif">如需帮助，请拨打</span>
+                                </div>
+                                <div class="telphone">
+                                    <span class="sever_telphone">
+                                        400-859-0911
+                                    </span>
+                                </div>
+                            </div>                                     
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    	<div class="describe">
+    		<span>创元成业电子科技有限公司</span>
+    	</div>
+    </div>
+    <script type="text/javascript" src="../js/sweetalert.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.idcode.js"></script>
+    <script type="text/javascript" src="../js/distpicker.data.js"></script>
+    <script type="text/javascript" src="../js/distpicker.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../js/register.js"></script>
+  </body>
+</html>

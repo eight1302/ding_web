@@ -1,0 +1,86 @@
+<section class="select_product">
+	<div class="col-md-12 selcet_des">
+		<div class="col-md-2 repair_info">
+			<span>选择返修产品</span>
+		</div>
+		<div class="col-md-8" style="position: relative;">
+			<div class="repair_process">
+				<span class="col-md-2" style="line-height: 60px;color: #2196f3;padding-left: 9%;">返修操作流程</span>
+				<div class="col-md-10 repair_des">
+					<div class="col-md-12 timeline_red"></div>
+					<div class="col-md-12 red_detail"><!--预支付全款流程数据--></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2" style="float: right;">
+			<div class="repair_find">
+				<input type="text" name="" class="con_on" id="contract_no" value="" placeholder="输入合同号!" style="width: 100px;">
+				<button class="con_btn">搜索</button>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-12 repair_product_des">
+		<div class="des_product">
+			<div class="contract_no">合同编号</div>
+			<div class="pooduct_name">产品名称</div>
+			<div class="product_data">下单日期</div>
+			<div class="product_type">产品型号</div>
+			<div class="contract_state">订单状态</div>
+			<div class="product_quantity">产品数量</div>
+			<div class="selcet_pro">选择返修产品</div>
+		</div>
+		<div class="page-data">
+			<div class="contracts"><!--返修产品列表--></div>
+	        <div class="page-left"></div> 
+       	</div> 
+	</div>
+</section>
+
+<div class="overlay_repair"></div>
+<!--返修产品的列表-->
+<section class="overlay_product">
+	<div class="col-md-12 repair_title">
+		<span style="font-size: 18px;color: #fff;margin-left: 20px;">选择返修产品</span>
+		<div class="cental_pro">
+			<img src="../../img/canel.png" style="width: 100%;height: 100%;margin-top: 1px;">
+		</div>
+	</div>
+	<div class="col-md-12 product_title">
+		<div class="no">序</div>
+		<div class="number">产品编号</div>
+		<div class="name1">产品名称</div>
+		<div class="type">产品型号</div>
+		<div class="quantity">产品数量</div>
+		<div class="re_question">返修数量</div>
+		<div class="up">上传质量问题</div>
+	</div>
+	<div class="col-md-12 products_info"><!--返修产品列表--></div>
+	<div class="add_repair">
+		<img src="../../img/add.png">
+		<span>提交</span>
+	</div>
+</section>
+
+<div class="product_repair"></div>
+<section class="product_question">
+	<div class="col-md-12 repair_title">
+		<span style="font-size: 18px;color: #fff;margin-left: 20px;">填写质量问题</span>
+		<div class="cental_pro_one">
+			<img src="../../img/canel.png" style="width: 100%;height: 100%;margin-top: 1px;">
+		</div>
+	</div>
+	<div class="col-md-12 question">
+		<div class="col-md-6 question_des">
+			<div class="des_ques">问题描述</div>
+			<textarea class="textare" id="textare" value="" placeholder="请输入质量问题,问题**，用分号分开,字数小于1500!"></textarea>
+		</div>
+		<div class="col-md-6 question_img">
+			<label style="margin-top: 20px;margin-left: 15px;">上传图片：<input type="file" class="file" id="file" value="" style="float: right;"></label>
+			<div class="imgs"><!--预览图片--><img src="" class="img" style="width: 100%;height: 100%;"></div>
+		</div>
+	</div>
+	<div class="product_repair_btn">
+		<img src="../../img/add.png">
+		<span>提交</span>
+	</div>
+</section>
